@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>苹果大事件：iOS 15曝光，iPad Air5、iPhone SE3将至：性价比爆棚！</title>
+      <link href="/2022/02/13/tech-30/"/>
+      <url>/2022/02/13/tech-30/</url>
+      
+        <content type="html"><![CDATA[<p>据上游供应链从业者爆料称，苹果正在为春季新品发布会做准备，而有开发者也从iOS 15.4新测试版中发现，苹果正在有这方面动作，比如iPhone SE新款占位符等等。</p><p>按照之前的说法，苹果预计会在3月8日举行新品发布会，届时新一代iPhone SE和iPad Air 5将会同时亮相，两款产品的量产工作已经在紧张的准备中。</p><a id="more"></a><p>据悉，iPhone SE3将不配备MagSafe技术，无法利用市场上已有的磁性配件。第三代SE机型的关键卖点将是新的A15仿生芯片与5G连接，并将继续支持Qi无线充电。</p><p>全新iPad Air与全新iPad mini配置相差不多，升级A15芯片，支持5G网络，配备1200万像素超广角前置摄像头（还拥有四色LED真彩闪光灯）。同时前置摄像头支持Center Stage人物居中功能。</p><p><img src="https://s2.loli.net/2022/02/13/Boh4EdJPr6DHFWg.png"></p><p>外观设计方面，第五代iPad Air与目前2020年10月发布的iPad Air相同，依然是10.9寸窄边框，触控ID集成在电源键上，USB-C接口，有深空灰、银色、绿色、玫瑰金和天蓝色可供选择。</p><p>按照之前的说法，新iPad Air、iPhone SE的售价都号称非常良心（预计3K+起步），希望苹果不要让大家失望。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDE Eval Reset官方仓库和下载地址</title>
+      <link href="/2022/02/13/tech-29/"/>
+      <url>/2022/02/13/tech-29/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Reset Your IDE Eval Information</span><br><span class="line">Download and install plugin from Download Link.</span><br><span class="line">Alternative installation method:</span><br><span class="line">Add &quot;Custom Plugin Repository&quot;: https:&#x2F;&#x2F;plugins.zhile.io manually (Settings&#x2F;Preferences -&gt; Plugins)</span><br><span class="line">Search and install plugin: IDE Eval Reset</span><br><span class="line">Click Help or Get Help -&gt; Eval Reset menu.</span><br><span class="line">Click Reset -&gt; Yes button.</span><br><span class="line">Restart your IDE.</span><br><span class="line">Now you have another 30 days eval time :)</span><br><span class="line">For more information, visit here.</span><br><span class="line"></span><br></pre></td></tr></table></figure><a id="more"></a><p>仓库地址-<a href="https://gitee.com/pengzhile/ide-eval-resetter#https://plugins.zhile.io/files/ide-eval-resetter-2.3.5-c80a1d.zip">https://gitee.com/pengzhile/ide-eval-resetter#https://plugins.zhile.io/files/ide-eval-resetter-2.3.5-c80a1d.zip</a></p><p>使用方法：</p><ol><li>idea中打开setting的 plugin管理</li><li>添加 plugin 源 ——<a href="https://plugins.zhile.io/">https://plugins.zhile.io</a></li><li>搜索IDE Eval Reset</li><li>安装IDE Eval Reset</li><li>help中最后一个按钮就行Eval Reset</li><li>点击即可刷新试用</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最新获取京东eid和fp的快速方法</title>
+      <link href="/2022/02/13/tech-28/"/>
+      <url>/2022/02/13/tech-28/</url>
+      
+        <content type="html"><![CDATA[<p>获取京东eid和fp的快速方法</p><p>最近一位牛人用Python写的JD的茅台抢购代码，可谓是风声水起，异常火爆，本着试试的态度也想耍一下，但是上来就遇到了问题，必须先要京东的eid和fp方法，于是乎在网上度娘了许久，终于搞了多种方法，亲试有效，这里Mark一下，以备后用。</p><a id="more"></a><p>方法一 、利用浏览器“检查”中的Console<br>首先需要登录京东账户，同时随便选一款商品，进入商品提交界面，利用谷歌浏览器右击“检查”，然后选择“Console”，在命令行输入“_JdTdudfp”，回车即可！<br><img src="https://s2.loli.net/2022/02/13/1uL3B5W8pPh47Ul.png"></p><p>方法二、利用浏览器“检查”中的Source<br>首先需要登录京东账户，同时随便选一款商品，进入商品提交界面，利用谷歌浏览器右击“检查”（或点击F12），然后选择“Source”，点击“Watch”，点击加号，填入_JdTdudfp，即可查看到eid与fp！<br><img src="https://s2.loli.net/2022/02/13/HFRSpgO5UcGbhBW.png"></p><p>方法三、编写html网页文件自动获取<br>创建一个html后缀的文件index.html，编辑模式打开，写入代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;&lt;&#x2F;head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;div id&#x3D;&quot;info&quot;&gt;获取中……&lt;&#x2F;div&gt;</span><br><span class="line">        &lt;hr&gt;</span><br><span class="line">        &lt;div id&#x3D;&quot;eid&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">        &lt;div id&#x3D;&quot;fp&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">    &lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;gias.jd.com&#x2F;js&#x2F;td.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    setTimeout(function () &#123;</span><br><span class="line">        try &#123;</span><br><span class="line">            getJdEid(function (eid, fp, udfp) &#123;</span><br><span class="line">                document.getElementById(&#39;info&#39;).innerText &#x3D; &#39;请把下面的内容复制到配置文件 config.ini 中的对应位置&#39;;</span><br><span class="line">                document.getElementById(&#39;eid&#39;).innerText &#x3D; &#39;eid &#x3D; &#39; + eid;</span><br><span class="line">                document.getElementById(&#39;fp&#39;).innerText &#x3D; &#39;fp &#x3D; &#39; + fp;</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125; catch (e) &#123;</span><br><span class="line">            document.getElementById(&#39;info&#39;).innerText &#x3D; e;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;, 1000);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>用浏览器打开京东，并登陆，随意选择一个商品进入提交界面，将上面创建的index.html文件拖到当前浏览器，即可看到想要的eid和fp值：</p><p><img src="https://s2.loli.net/2022/02/13/nlFezYwRCdaScZ8.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>12代酷睿的笔记本该如何选择（一）</title>
       <link href="/2022/02/05/tech-27/"/>
       <url>/2022/02/05/tech-27/</url>
