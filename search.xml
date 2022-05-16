@@ -4,6 +4,156 @@
   
     
     <entry>
+      <title>华硕ROG幻14 2022款评测，GPU远超3060</title>
+      <link href="/2022/05/16/tech-60/"/>
+      <url>/2022/05/16/tech-60/</url>
+      
+        <content type="html"><![CDATA[<p>ROG幻14 2022 采用锐龙9 6900HS和RX 6800S的AMD超威卓越平台笔记本</p><a id="more"></a><p>ROG幻14 2022 采用锐龙9 6900HS和RX 6800S的AMD超威卓越平台笔记本</p><p>2018年的锐龙7 2700H笔记本所搭载的Vega 8 GPU，其性能就数倍于Intel同时代的UHD Graphics，到去年其性能才被Intel新架构的Iris Xe追上。</p><p>2022年2月，AMD发布了全新的锐龙6000系列处理器，多年来首次采用了RDNA 2构架的Radoen RX 600M系列内置显卡，同时流处理器也暴增至最高768个。</p><p>根据AMD的说法，采用RNDA2构架的AMD Radeon 680M GPU理论性能相当于Vega 8的2倍，游戏体验超越入门级独显。</p><p>当然，锐龙6000系列移动处理器的升级绝不仅仅只限于RDNA 2 内置显卡，它的制程工艺也升级到了台积电6nm，配合Zen3 +构架，能让处理器以更低的电压、更低的功耗运行，也可以在相同的功耗下将处理器的单核、多核性能提升10-30%。</p><p><img src="https://s2.loli.net/2022/05/16/IiQBNDKbqAsmPX6.png" alt="image.png"><br>其他方面的升级也很诱人</p><p>和上代的锐龙5000系列移动处理器相比，锐龙6000系列移动处理器的升级是全方位的。</p><p>1、支持PCIe 4.0</p><p>此前的锐龙移动处理器最高只能支持到PCIe 3.0 x8，搭载顶级独显时多少会有一些性能损失。锐龙6000H移动处理器升级到PCIe 4.0之后，带宽翻倍，高端显卡性能不再受限。</p><p>2、最高5.0GHz加速频率</p><p>在台积电6nm制程工艺和Zen3 +构架加持下，锐龙6000移动处理器的最高加速频率首次达到了5.0GHz，因此单核性能以及多核都会有明显的提升。</p><p>3、DDR5内存</p><p>锐龙6000系列移动处理器不再支持DDR4内存，当然采用DDR5内存的好处也是显而易见的。</p><p>首先就是更大幅度提升内置显卡的性能；，甚至可以媲美一般游戏独显。</p><p>此次我们测试所采用的笔记本是华硕ROG幻14 2022款，它搭载了AMD锐龙9 6900HS处理器和AMD最新的RX 6800S独立显卡。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>4090一代机皇登场！RTX 4090功耗性能可抵两张RTX 3090</title>
+      <link href="/2022/05/16/tech-59/"/>
+      <url>/2022/05/16/tech-59/</url>
+      
+        <content type="html"><![CDATA[<p>4090一代机皇登场！RTX 4090功耗性能可抵两张RTX 3090</p><a id="more"></a><p>新一代RTX 40系显卡，看起来功耗和性能都不是善茬，此前的爆料甚至都说到900W这样恐怖的数值，玩个游戏一小时一度电的节奏。</p><p>根据传闻，GeForce RTX 4090采用与RTX 4090 Ti相同的AD102 GPU，只是老黄需要用精湛的刀法进行定位。英伟达AD102核心内建144组流处理器单元，合计18432个CUDA核心。</p><p>NVIDIA大幅增大L2缓存，旗舰款AD102将有96MB L2缓存，是上代GA102(6MB L2)的16倍。显卡配备384-bit位宽的GDDR6x显存，21Gbps的频率下可带来接近1TB/s的速度。</p><p><img src="https://s2.loli.net/2022/05/16/zGfc3Rp2knobMBS.png" alt="image.png"></p><p>在规格、性能大幅提升的情况下，AD102核心的功耗同样大幅度增加。其中配备24GB GDDR6X显存的RTX 4090功耗达到600W。为了更好的压制温度，AIC厂商可能引入混合式散热(风冷+水冷)设计，传统的三槽多风扇散热器已经很难满足需求。</p><p>采用AD104核心的RTX 4070(据说PCB板为PG141-SKU341)，该显卡拥有60组流处理器单元、共7680个CUDA核心和48MB L2缓存，搭配12GB容量、192-bit位宽的GDDR6显存，16～18Gbps带来384GB/s～432GB/s的带宽，功耗达300W。</p><p>不过，在最新动态中，爆料好手kopite7kimi重新明确，RTX 4090才哦那个AD102-300核心，内建16128个CUDA，匹配21Gbps GDDR6X显存，整卡功耗大约450W左右，性能相当于两张RTX 3090。</p><p>450W也就是当前RTX 3090 Ti的水平，可RTX 3090 Ti相较于RTX 3090的提升最多不过两位数，可见新架构的威力不小。</p><p>上市时间方面，给出的说法是最快7月中旬上市。NVIDIA Geforce RTX 4090 Ti/4080将基于优化后的AD102核心打造，而RTX 4070将使用优化后的AD104核心。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>京东京造麒麟SSD开售：199元起 纯国产</title>
+      <link href="/2022/05/16/tech-58/"/>
+      <url>/2022/05/16/tech-58/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/05/16/dM1YrVHfgwnb6vj.png" alt="image.png"></p><a id="more"></a><p>最高读取3500MB/s的京东麒麟SSD硬盘开售，只要199元，就能买到！</p><p><img src="https://s2.loli.net/2022/05/16/dM1YrVHfgwnb6vj.png" alt="image.png"></p><p>京东自有品牌京造上架全新麒麟系列SSD，经过多日等待，新品已于今日正式开售，提供256GB、512GB、1TB三种容量可选，售价分别为199元、349元、599元。</p><p>京东京造麒麟SSD采用联芸22nm工艺主控方案、长江存储3D TLC闪存芯片，由江波龙代工。</p><p>均为单面颗粒设计，支持PCIe3.0×4通道以及NVMe1.4协议，并通过HMB技术实现高速读写性能，带来更快的启动、文件传输和系统响应，质保承诺五年。</p><p>另外，标签纸上印有麒麟纹样，芯片表面贴有石墨片复合散热贴。</p><p>最高读取3500MB/s！京东京造麒麟SSD开售：199元起 纯国产</p><p><img src="https://s2.loli.net/2022/05/16/iHel57WXEAqNfbx.png" alt="image.png"></p><p>据了解，联芸科技是为数不多掌握NAND Flash控制芯片核心关键技术的企业之一，也是国内首款支持3D NAND闪存颗粒的SSD主控的推出者。</p><p>而长江存储基于自研晶栈Xtacking 2.0技术，推出了业界领先的128层TLC 3D NAND闪存颗粒。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最新超级APU曝光！Zen4搭档全新GPU</title>
+      <link href="/2022/05/16/tech-57/"/>
+      <url>/2022/05/16/tech-57/</url>
+      
+        <content type="html"><![CDATA[<p>最新超级APU曝光！Zen4搭档全新GPU</p><a id="more"></a><p>就在APU快要淡出市场的时候，AMD却推出了大招，全新高新能APU闪亮登场</p><p>AMD CPU＋GPU正在全面组合，下一代的7000系列处理器将整合Zen4、RDNA2架构，而在高性能高性能计算领域，也有Instinct加速卡的APU模式。</p><h1 id="AMD-APU配置参数如下"><a href="#AMD-APU配置参数如下" class="headerlink" title="AMD APU配置参数如下"></a>AMD APU配置参数如下</h1><p><img src="https://s2.loli.net/2022/05/16/bmvxohA62Qe173R.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你的短信可能再也收不到了，河北、河南默认关闭境外短信！</title>
+      <link href="/2022/05/16/tech-56/"/>
+      <url>/2022/05/16/tech-56/</url>
+      
+        <content type="html"><![CDATA[<p>河北、河南默认关闭境外短信！你还会使用短信吗</p><a id="more"></a><p>短信曾今是使用率最高的通信方式，但是现在却没什么人用了，而且海外的短信默认收不到了！</p><p>面对猖狂的境外电话、短信诈骗，中国各地运营商纷纷出手了！</p><p>河北方面公告称，为保护人民群众财产安全，河北省公安厅联合当地三大电信运营商发布公告，自2022年5月5日零时起，河北三大电信运营商将默认关闭用户的国际及港澳台短信接收业务功能。</p><p>5月7日零时起，河南省的三大运营商也将境外短信调整为默认关闭状态，有业务需求的用户，可携带身份证前往营业厅或通过发送短信确认免费开通。</p><p><img src="https://s2.loli.net/2022/05/16/epb4tm6zohKBdRQ.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>程序员删库，二审被判7年</title>
+      <link href="/2022/05/16/tech-55/"/>
+      <url>/2022/05/16/tech-55/</url>
+      
+        <content type="html"><![CDATA[<p>链家程序员删除9TB数据，这行业有风险</p><a id="more"></a><p>链家是一家中介企业，同时也有程序员员工，而且还删库跑路。</p><p>据中国裁判文书网消息，原链家网（北京）科技有限公司数据库管理员韩冰，因犯破坏计算机信息系统罪一审被判处有期徒刑七年，二审维持原判。</p><p>链家网（北京）科技有限公司数据库管理员韩冰利用其担任并掌握该公司财务系统“root”权限的便利，登录该公司财务系统，并将系统内的财务数据及相关应用程序删除，致使该公司财务系统彻底无法访问。</p><p>被破坏的服务器是公司专门用于EBS系统的2台数据库服务器和2台应用服务器，存放着公司成立以来所有的财务数据，直接影响公司人员的工资发放等，对公司整个运行有非常重要的意义。该公司恢复数据及重新构建该系统共计花费人民币18万元。</p><p>被告人韩冰违反国家规定，对计算机信息系统中存储的数据和应用程序进行删除，造成计算机信息系统不能正常运行，后果特别严重，其行为已构成破坏计算机信息系统罪，依法惩处。</p><p>依照《中华人民共和国刑法》规定，判决：被告人韩冰犯破坏计算机信息系统罪，判处有期徒刑七年。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Epic游戏商城限免游戏</title>
       <link href="/2022/05/15/tech-54/"/>
       <url>/2022/05/15/tech-54/</url>
