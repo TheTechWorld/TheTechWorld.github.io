@@ -4,6 +4,256 @@
   
     
     <entry>
+      <title>最新黑苹果 OC引导EFI分享：i9 10900K + 华硕 Proart Z490-Creator 10G + 公版Vega64</title>
+      <link href="/2022/07/24/tech-73/"/>
+      <url>/2022/07/24/tech-73/</url>
+      
+        <content type="html"><![CDATA[<p>OC引导EFI分享：i9 10900K + 华硕 Proart Z490-Creator 10G + 公版Vega64</p><a id="more"></a><h2 id="配置信息"><a href="#配置信息" class="headerlink" title="配置信息"></a>配置信息</h2><pre><code>主板：ASUS/华硕 Proart Z490-Creator 10G（板载ALC S1220A 声卡，alcid=7）处理器：i9 10900K（UHD630核显）显卡：AMD公版 Vega 64内存：Crucial/英睿达 DDR4 3200 16G *4硬盘：Samsung/三星 SSD 860 EVO 1TB（SATA）无线网卡：Broadcom/博通 BCM943602CDP AX_2（白果拆机2017年版，由转接卡接入PCIE）</code></pre><h2 id="引导信息"><a href="#引导信息" class="headerlink" title="引导信息"></a>引导信息</h2><pre><code>Opencore 0.7.8（mackie官网OCC下载版本号2.58.0.0）</code></pre><p>macOS与机型设置<br>    Catalina 10.15.6，iMac19,1</p><h2 id="功能情况"><a href="#功能情况" class="headerlink" title="功能情况"></a>功能情况</h2><pre><code>使用无问题的功能：</code></pre><p>蓝牙、定位服务、隔空投送、随航与WiFi（需对USB进行定制，见下文<em>处）<br>扬声器与耳机的音频输出及自动切换（显示器内置扬声器无法通过系统调节音量，可下载SoundSource作为解决方案，链接见文末）<br>硬件加速（需对机型进行配置，见下文</em>处）<br>系统手动/自动睡眠与唤醒<br>iCloud、iMessage、FaceTime以及AppStore等苹果服务<br>……<br>    *需要配置的功能：<br>USB接口：主板本身无问题，但由于各种机箱前面板的差异，提供的接口可能有所区别。本配置使用的机箱前面板提供2个USB3.1 + 1个带转换器的Type C接口，如果目标机箱恰好符合此种配置，则不需要对配置做出更改；若有变化，请参照 <a href="https://apple.sqlsec.com/6-%E5%AE%9E%E7%94%A8%E5%A7%BF%E5%8A%BF/6-1.html">https://apple.sqlsec.com/6-%E5%AE%9E%E7%94%A8%E5%A7%BF%E5%8A%BF/6-1.html</a> 所提供的方案操作，以确保USB能够正常使用。<br>机型信息及“三码”：为防止信息冲突，本配置中的机型信息和“三码”（序列号、UUID、ROM）已清空，请使用前述0.7.8版的OCC生成机型为“iMac19,1”的相关配置（操作可见 <a href="http://www.imacosx.cn/2929.html%EF%BC%89%EF%BC%8C%E5%B9%B6%E5%9C%A8%E7%94%9F%E6%88%90%E5%90%8E%E5%B0%86%E2%80%9C%E8%87%AA%E5%AE%9A%E4%B9%89CPU%E5%9E%8B%E5%8F%B7%E2%80%9D%E6%A1%86%E7%9A%84%E5%86%85%E5%AE%B9%E6%B8%85%E7%A9%BA%E6%88%96%E5%A1%AB%E5%85%A5%E2%80%9C0%E2%80%9D%EF%BC%8C%E5%90%A6%E5%88%99%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F%E5%92%8C%E8%8B%B9%E6%9E%9C%E6%9C%8D%E5%8A%A1%E4%B8%8D%E5%8F%AF%E7%94%A8%E3%80%82">http://www.imacosx.cn/2929.html），并在生成后将“自定义CPU型号”框的内容清空或填入“0”，否则可能导致硬件加速和苹果服务不可用。</a><br>    情况未知的功能：<br>板载有线网卡：本配置下没有连接有线网络的需求，因此没有进行相关测试。<br>麦克风输入/输出：缺少相关设备，无法进行测试。<br>系统显示器亮度调节：配置时没有相关需求，很可能不适用。</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>黑苹果的相关引导文件并非“越新越好”，而是要最贴近当前的机型和配置。因此，如果不清楚行为的后果，请不要自行升级或修改各类配置文件和驱动，以免造成诸如系统无法启动等麻烦。</p><h2 id="快照"><a href="#快照" class="headerlink" title="快照"></a>快照</h2><p><img src="https://s2.loli.net/2022/07/24/MaPzyCfbktsi9An.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>抖音最新运营教程（412G）自媒体多期基础+高级VIP教程+抖音小程序玩法 抖音小店运营</title>
+      <link href="/2022/07/24/tech-72/"/>
+      <url>/2022/07/24/tech-72/</url>
+      
+        <content type="html"><![CDATA[<p>抖音最新运营教程（412G）自媒体多期基础+高级VIP教程+抖音小程序玩法 抖音小店运营</p><a id="more"></a><p>学完可以获取百万粉丝！赢得亿万财富！</p><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p><a href="https://www.aliyundrive.com/s/x8KD8yubmaC">https://www.aliyundrive.com/s/x8KD8yubmaC</a></p><h1 id="具体内容"><a href="#具体内容" class="headerlink" title="具体内容"></a>具体内容</h1><p><img src="https://s2.loli.net/2022/07/24/OcQartYPnmDXdEG.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>青龙面板WxPusher推送无法识别用户UID</title>
+      <link href="/2022/07/24/tech-71/"/>
+      <url>/2022/07/24/tech-71/</url>
+      
+        <content type="html"><![CDATA[<p>青龙面板WxPusher推送无法识别用户UID </p><a id="more"></a><h1 id="教程地址"><a href="#教程地址" class="headerlink" title="教程地址"></a>教程地址</h1><p><a href="https://www.vctior.com/archives/wxpusher">https://www.vctior.com/archives/wxpusher</a></p><p><img src="https://s2.loli.net/2022/07/24/ltAY9Vc4pSUm7Gu.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>香色闺阁 ipa 下载</title>
+      <link href="/2022/07/24/tech-70/"/>
+      <url>/2022/07/24/tech-70/</url>
+      
+        <content type="html"><![CDATA[<p>香色闺阁 2.56.1.ipa 下载地址</p><a id="more"></a><p>前段时间苹果下架了所有「源阅读软件」，我猜有人需要，于是我把自己的ipa导了出来。<br>虽然下架了，但是依然可以正常使用。<br>大家下载后可以用爱思助手，或者imazing软件安装。<br>注意注意注意：这是我自己账号下载的，大家安装后无法升级（虽然现在想升级也没有了。）</p><p><img src="https://s2.loli.net/2022/07/24/BA8Jr7GUn5wgLHZ.png" alt="image.png"></p><p>下载链接：链接: <a href="https://pan.baidu.com/s/1GYmqHl8-yZSPLRawoT2onw">https://pan.baidu.com/s/1GYmqHl8-yZSPLRawoT2onw</a> （为防止和谐，有一个是压缩包，二选一即可）<br>提取码: q6cg</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2022年初级会计培训视频盘资源</title>
+      <link href="/2022/07/24/tech-69/"/>
+      <url>/2022/07/24/tech-69/</url>
+      
+        <content type="html"><![CDATA[<p>最新2022年初级会计培训视频盘资源</p><a id="more"></a><p>下载地址</p><p>链接：<a href="https://pan.baidu.com/s/12QLa_4LvYz1JmrJDbssfNw?pwd=6666">https://pan.baidu.com/s/12QLa_4LvYz1JmrJDbssfNw?pwd=6666</a> 提取码：6666</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最新WIN10专业版密匙新鲜出炉</title>
+      <link href="/2022/07/24/tech-68/"/>
+      <url>/2022/07/24/tech-68/</url>
+      
+        <content type="html"><![CDATA[<p>WIN10专业版密匙新鲜出炉下载地址</p><a id="more"></a><p>最新密钥</p><p><code>CBM4N-Q38K3-7DQV8-J2BKW-33VQQ</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>爱因斯坦的《狭义相对论和广义相对论》pdf下载</title>
+      <link href="/2022/07/24/tech-67/"/>
+      <url>/2022/07/24/tech-67/</url>
+      
+        <content type="html"><![CDATA[<p>爱因斯坦的《狭义相对论和广义相对论》pdf下载</p><a id="more"></a><p>爱因斯坦的狭义相对论和广义相对论</p><p>附：若有违规，请版务删除此贴，谢谢<br>蓝奏链接：<a href="https://wwn.lanzoub.com/ifzVg087ko2h">https://wwn.lanzoub.com/ifzVg087ko2h</a><br>度盘链接：<a href="https://pan.baidu.com/s/1wUu9R2Cmgy-Pq_9FhdN5yg">https://pan.baidu.com/s/1wUu9R2Cmgy-Pq_9FhdN5yg</a><br>提取码：52pj</p><h1 id="学会了可以穿越时空"><a href="#学会了可以穿越时空" class="headerlink" title="学会了可以穿越时空"></a>学会了可以穿越时空</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数学模型，冰山运输——mathematica代码</title>
+      <link href="/2022/07/24/tech-66/"/>
+      <url>/2022/07/24/tech-66/</url>
+      
+        <content type="html"><![CDATA[<p>数学模型，冰山运输——mathematica代码</p><a id="more"></a><p><img src="https://s2.loli.net/2022/07/24/q1vtLjeG5cZhKVb.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>outLook邮箱最新外国邮箱申请教程</title>
+      <link href="/2022/07/24/tech-65/"/>
+      <url>/2022/07/24/tech-65/</url>
+      
+        <content type="html"><![CDATA[<p>最新 精品短邮箱outLook邮箱,2~3位前缀,精品短邮箱申请 </p><a id="more"></a><p>注册教程：<br>输入申请地址<br><a href="https://signup.live.com/signup.aspx?mkt=lv-lv&amp;lic=1">https://signup.live.com/signup.aspx?mkt=lv-lv&amp;lic=1</a><br>选择第二个选项<br><img src="https://s2.loli.net/2022/07/24/obWqFRSLifMVPys.png" alt="image.png"></p><p>输入你喜欢的后缀 已A66为例</p><p><img src="https://s2.loli.net/2022/07/24/gIjP6hc2t4WokmV.png" alt="image.png"></p><p>然后提示输入密码<br><img src="https://s2.loli.net/2022/07/24/Di7ReFPdA8uXBT1.png" alt="image.png"></p><p>输入您的姓名<br><img src="https://s2.loli.net/2022/07/24/l9KNsc8JiY2bjSD.png" alt="image.png"></p><p>接下来就是你的地区,生日等填写</p><p>一个邮箱到手</p><p>修改中文教程：</p><p>下面修改默认语言<br><a href="https://account.microsoft.com/profile/preferred-language-selector">https://account.microsoft.com/profile/preferred-language-selector</a></p><p>切换到中文<br><a href="https://account.microsoft.com/?lang=zh-CN">https://account.microsoft.com/?lang=zh-CN</a></p><p><img src="https://s2.loli.net/2022/07/24/KFY597SO1jBcHZI.png" alt="image.png"></p><p>下面是 各国的不同的outlook邮箱注册地址<br>所有OutLook域名地址<br>01、通用后缀outlook.com<br><a href="https://signup.live.com/signup.aspx?mkt=ZH-CN&amp;lic=1">https://signup.live.com/signup.aspx?mkt=ZH-CN&amp;lic=1</a><br>02、韩国的后缀outlook.kr<br><a href="https://signup.live.com/signup.aspx?mkt=KO-KR&amp;lic=1">https://signup.live.com/signup.aspx?mkt=KO-KR&amp;lic=1</a><br>03、沙特阿拉伯的后缀outlook.sa<br><a href="https://signup.live.com/signup.aspx?mkt=AR-AR&amp;lic=1">https://signup.live.com/signup.aspx?mkt=AR-AR&amp;lic=1</a><br>04、阿根廷的后缀outlook.com.ar<br><a href="https://signup.live.com/signup.aspx?mkt=AU-AR&amp;lic=1">https://signup.live.com/signup.aspx?mkt=AU-AR&amp;lic=1</a><br>05、澳大利亚的后缀outlook.com.au<br><a href="https://signup.live.com/signup.aspx?mkt=AU-AU&amp;lic=1">https://signup.live.com/signup.aspx?mkt=AU-AU&amp;lic=1</a><br>06、奥地利的后缀outlook.at<br><a href="https://signup.live.com/signup.aspx?mkt=AT-AT&amp;lic=1">https://signup.live.com/signup.aspx?mkt=AT-AT&amp;lic=1</a><br>07、比利时的后缀outlook.be<br><a href="https://signup.live.com/signup.aspx?mkt=BA-BE&amp;lic=1">https://signup.live.com/signup.aspx?mkt=BA-BE&amp;lic=1</a><br>08、巴西的后缀outlook.com.<br>br<a href="https://signup.live.com/signup.aspx?mkt=Br-Br&amp;lic=1">https://signup.live.com/signup.aspx?mkt=Br-Br&amp;lic=1</a><br>09、智利的后缀outlook.cl<br><a href="https://signup.live.com/signup.aspx?mkt=cl-cl&amp;lic=1">https://signup.live.com/signup.aspx?mkt=cl-cl&amp;lic=1</a><br>10、捷克的后缀outlook.cz<br><a href="https://signup.live.com/signup.aspx?mkt=cz-cz&amp;lic=1">https://signup.live.com/signup.aspx?mkt=cz-cz&amp;lic=1</a><br>11、法国的后缀outlook.fr<br><a href="https://signup.live.com/signup.aspx?mkt=fr-fr&amp;lic=1">https://signup.live.com/signup.aspx?mkt=fr-fr&amp;lic=1</a><br>12、德国的后缀outlook.de<br><a href="https://signup.live.com/signup.aspx?mkt=de-de&amp;lic=1">https://signup.live.com/signup.aspx?mkt=de-de&amp;lic=1</a><br>13、希腊的后缀outlook.com.gr<br><a href="https://signup.live.com/signup.aspx?mkt=gr-gr&amp;lic=1">https://signup.live.com/signup.aspx?mkt=gr-gr&amp;lic=1</a><br>14、以色列的后缀outlook.co.il<br><a href="https://signup.live.com/signup.aspx?mkt=il-il&amp;lic=1">https://signup.live.com/signup.aspx?mkt=il-il&amp;lic=1</a><br>15、印度的后缀outlook.in<br><a href="https://signup.live.com/signup.aspx?mkt=in-in&amp;lic=1">https://signup.live.com/signup.aspx?mkt=in-in&amp;lic=1</a><br>16、印尼的后缀outlook.co.id<br><a href="https://signup.live.com/signup.aspx?mkt=iD-iD&amp;lic=1">https://signup.live.com/signup.aspx?mkt=iD-iD&amp;lic=1</a><br>17、爱尔兰的后缀outlook.ie<br><a href="https://signup.live.com/signup.aspx?mkt=ie-ie&amp;lic=1">https://signup.live.com/signup.aspx?mkt=ie-ie&amp;lic=1</a><br>18、意大利的后缀outlook.it<br><a href="https://signup.live.com/signup.aspx?mkt=it-it&amp;lic=1">https://signup.live.com/signup.aspx?mkt=it-it&amp;lic=1</a><br>19、匈牙利的后缀outlook.hu<br><a href="https://signup.live.com/signup.aspx?mkt=hu-hu&amp;lic=1">https://signup.live.com/signup.aspx?mkt=hu-hu&amp;lic=1</a><br>20、日本的后缀outlook.jp<br><a href="https://signup.live.com/signup.aspx?mkt=jp-jp&amp;lic=1">https://signup.live.com/signup.aspx?mkt=jp-jp&amp;lic=1</a><br>21、韩国的后缀outlook.kr<br><a href="https://signup.live.com/signup.aspx?mkt=kr-kr&amp;lic=1">https://signup.live.com/signup.aspx?mkt=kr-kr&amp;lic=1</a><br>22、拉脱维亚的后缀outlook.lv<br><a href="https://signup.live.com/signup.aspx?mkt=lv-lv&amp;lic=1">https://signup.live.com/signup.aspx?mkt=lv-lv&amp;lic=1</a><br>23、马来西亚的后缀outlook.my<br><a href="https://signup.live.com/signup.aspx?mkt=my-my&amp;lic=1">https://signup.live.com/signup.aspx?mkt=my-my&amp;lic=1</a><br>24、新西兰的后缀outlook.co.nz<br><a href="https://signup.live.com/signup.aspx?mkt=nz-nz&amp;lic=1">https://signup.live.com/signup.aspx?mkt=nz-nz&amp;lic=1</a><br>25、菲律宾的后缀outlook.ph<br><a href="https://signup.live.com/signup.aspx?mkt=ph-ph&amp;lic=1">https://signup.live.com/signup.aspx?mkt=ph-ph&amp;lic=1</a><br>26、葡萄牙的后缀outlook.pt<br><a href="https://signup.live.com/signup.aspx?mkt=pt-pt&amp;lic=1">https://signup.live.com/signup.aspx?mkt=pt-pt&amp;lic=1</a><br>27、新加坡的后缀outlook.sg<br><a href="https://signup.live.com/signup.aspx?mkt=sg-sg&amp;lic=1">https://signup.live.com/signup.aspx?mkt=sg-sg&amp;lic=1</a><br>28、斯洛伐克的后缀outlook.sk<br><a href="https://signup.live.com/signup.aspx?mkt=sk-sk&amp;lic=1">https://signup.live.com/signup.aspx?mkt=sk-sk&amp;lic=1</a><br>29、西班牙的后缀outlook.es<br><a href="https://signup.live.com/signup.aspx?mkt=es-es&amp;lic=1">https://signup.live.com/signup.aspx?mkt=es-es&amp;lic=1</a><br>30、泰国的后缀outlook.co.th<br><a href="https://signup.live.com/signup.aspx?mkt=th-th&amp;lic=1">https://signup.live.com/signup.aspx?mkt=th-th&amp;lic=1</a><br>31、土耳其的后缀outlook.com.tr<br><a href="https://signup.live.com/signup.aspx?mkt=tr-tr&amp;lic=1">https://signup.live.com/signup.aspx?mkt=tr-tr&amp;lic=1</a><br>32、越南的后缀outlook.com.vn<br><a href="https://signup.live.com/signup.aspx?mkt=vn-vn&amp;lic=1">https://signup.live.com/signup.aspx?mkt=vn-vn&amp;lic=1</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vmware去虚拟化教程及成品</title>
+      <link href="/2022/07/24/tech-64/"/>
+      <url>/2022/07/24/tech-64/</url>
+      
+        <content type="html"><![CDATA[<p>vmware去虚拟化教程及成品</p><a id="more"></a><h1 id="VM16-2-3去虚拟化教程及成品"><a href="#VM16-2-3去虚拟化教程及成品" class="headerlink" title="VM16.2.3去虚拟化教程及成品"></a>VM16.2.3去虚拟化教程及成品</h1><p>享个VM16.2.3去虚拟化的教程及成品，虚拟机是网上找的精简过的虚拟机。<br>去虚拟化的教程为自己写的，工具皆来自于网上，基本能够通杀TP</p><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><h2 id="最新版本"><a href="#最新版本" class="headerlink" title="最新版本"></a>最新版本</h2><p>链接：<a href="https://pan.baidu.com/s/1ywmKJshVpUzc5Qhqb2KDEg?pwd=stuc">https://pan.baidu.com/s/1ywmKJshVpUzc5Qhqb2KDEg?pwd=stuc</a></p><h2 id="历史版本"><a href="#历史版本" class="headerlink" title="历史版本"></a>历史版本</h2><p>20220329更新<br>1.0版本：<br>极为纯净，系统未激活，仅安装输入法</p><p>2.0版本：<br>添加了.net4.8, winrar解压工具。vm15版本仅提供2.0</p><p>去虚拟化截图网盘链接：<br>VM16：链接：<a href="https://pan.baidu.com/s/1_tCzBjl3P2c3L5aW_n1Zfw?pwd=stuc">https://pan.baidu.com/s/1_tCzBjl3P2c3L5aW_n1Zfw?pwd=stuc</a><br>提取码：stuc</p><p>VM15:  链接：<a href="https://pan.baidu.com/s/1Dwr5yWfGKWmTIt_UMkSFfg?pwd=stuc">https://pan.baidu.com/s/1Dwr5yWfGKWmTIt_UMkSFfg?pwd=stuc</a><br>提取码：stuc</p><p>20220428更新</p><p>看到很多人求win10版本的虚拟机，由于对win10的优化不是很熟，取了个其他人的镜像做了个去虚拟化。</p><p>教程及成品网盘链接：<br>Win7 链接：<a href="https://pan.baidu.com/s/19xH-4qC2XHlvsiiOUInFUA?pwd=stuc">https://pan.baidu.com/s/19xH-4qC2XHlvsiiOUInFUA?pwd=stuc</a><br>提取码：stuc</p><p>Win10 链接：<a href="https://pan.baidu.com/s/14GPW0hjzfsdT2_wjGq6rKQ?pwd=stuc">https://pan.baidu.com/s/14GPW0hjzfsdT2_wjGq6rKQ?pwd=stuc</a><br>提取码：stuc</p><p>感谢<a href="https://www.52pojie.cn/thread-1197075-1-1.html%E6%8F%90%E4%BE%9B%E7%9A%84%E6%8C%87%E5%AF%BC">https://www.52pojie.cn/thread-1197075-1-1.html提供的指导</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>几点建议：给想进入Web3的创作者们</title>
       <link href="/2022/07/19/tech-63/"/>
       <url>/2022/07/19/tech-63/</url>
