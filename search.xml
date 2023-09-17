@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>六款好用的git gui工具推荐</title>
+      <link href="2023/09/17/github-8/"/>
+      <url>2023/09/17/github-8/</url>
+      
+        <content type="html"><![CDATA[<p>git gui工具可以替代git 烦人的命令，大幅提升办公效率，赶快来加入吧</p><a id="more"></a><p>以下git gui工具排名不分前后，各有各的特色</p><h1 id="git-fork"><a href="#git-fork" class="headerlink" title="git fork"></a>git fork</h1><h2 id="git-fork优点"><a href="#git-fork优点" class="headerlink" title="git fork优点"></a>git fork优点</h2><p>ui美观<br>可以免费使用<br>功能强大</p><h2 id="git-fork下载地址"><a href="#git-fork下载地址" class="headerlink" title="git fork下载地址"></a>git fork下载地址</h2><p><a href="https://git-fork.com/">git fork下载地址</a></p><h2 id="git-fork界面"><a href="#git-fork界面" class="headerlink" title="git fork界面"></a>git fork界面</h2><p><img src="https://s2.loli.net/2023/09/17/tP1zqRiKUfgnjep.png" alt="tortoisegit"></p><p><img src="https://s2.loli.net/2023/09/17/cxOKugtdXVabTPE.png" alt="tortoisegit"></p><h1 id="tortoisegit"><a href="#tortoisegit" class="headerlink" title="tortoisegit"></a>tortoisegit</h1><h2 id="tortoisegit-优点"><a href="#tortoisegit-优点" class="headerlink" title="tortoisegit 优点"></a>tortoisegit 优点</h2><p>使用简单<br>语法spell检查</p><h2 id="tortoisegit-下载地址"><a href="#tortoisegit-下载地址" class="headerlink" title="tortoisegit 下载地址"></a>tortoisegit 下载地址</h2><p><a href="https://tortoisegit.org/download/">tortoisegit 下载地址</a></p><h1 id="lazygit"><a href="#lazygit" class="headerlink" title="lazygit"></a>lazygit</h1><h2 id="lazygit-优点"><a href="#lazygit-优点" class="headerlink" title="lazygit 优点"></a>lazygit 优点</h2><p>安装简单<br>界面简洁<br>符合Linux哲学</p><h2 id="lazygit-缺点"><a href="#lazygit-缺点" class="headerlink" title="lazygit 缺点"></a>lazygit 缺点</h2><p>不支持win系统</p><h2 id="lazygit-界面"><a href="#lazygit-界面" class="headerlink" title="lazygit 界面"></a>lazygit 界面</h2><p><img src="https://github.com/jesseduffield/lazygit/blob/assets/demo/stage_lines-compressed.gif" alt="lazygit"></p><p><img src="https://github.com/jesseduffield/lazygit/blob/assets/demo/stage_lines-compressed.gif" alt="lazygit"></p><h2 id="lazygit-下载地址"><a href="#lazygit-下载地址" class="headerlink" title="lazygit 下载地址"></a>lazygit 下载地址</h2><p><a href="https://github.com/jesseduffield/lazygit/releases">lazygit 下载地址</a></p><h1 id="sourcetreeapp"><a href="#sourcetreeapp" class="headerlink" title="sourcetreeapp"></a>sourcetreeapp</h1><h2 id="sourcetreeapp-优点"><a href="#sourcetreeapp-优点" class="headerlink" title="sourcetreeapp 优点"></a>sourcetreeapp 优点</h2><p>功能强大<br>用户多<br>稳定</p><p><img src="https://s2.loli.net/2023/09/17/3tcyNjxYTpKmvGa.png" alt="sourcetreeapp"></p><h2 id="sourcetreeapp-界面"><a href="#sourcetreeapp-界面" class="headerlink" title="sourcetreeapp 界面"></a>sourcetreeapp 界面</h2><p><img src="https://s2.loli.net/2023/09/17/uO6oeUdxIywWCP5.png" alt="sourcetreeapp"></p><h2 id="sourcetreeapp-下载地址"><a href="#sourcetreeapp-下载地址" class="headerlink" title="sourcetreeapp 下载地址"></a>sourcetreeapp 下载地址</h2><p><a href="https://www.sourcetreeapp.com/">sourcetreeapp 下载地址</a></p><h1 id="gitlens"><a href="#gitlens" class="headerlink" title="gitlens"></a>gitlens</h1><h2 id="gitlens-优点"><a href="#gitlens-优点" class="headerlink" title="gitlens 优点"></a>gitlens 优点</h2><p>支持vscode<br>功能简洁且强大<br>堪比jetbrains的git工具</p><h2 id="gitlens下载地址"><a href="#gitlens下载地址" class="headerlink" title="gitlens下载地址"></a>gitlens下载地址</h2><p><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">gitlens下载地址</a></p><h1 id="GitHub-Desktop"><a href="#GitHub-Desktop" class="headerlink" title="GitHub Desktop"></a>GitHub Desktop</h1><h2 id="GitHub-Desktop优点"><a href="#GitHub-Desktop优点" class="headerlink" title="GitHub Desktop优点"></a>GitHub Desktop优点</h2><p>github官方开发<br>界面简洁<br>功能齐全</p><h2 id="GitHub-Desktop界面"><a href="#GitHub-Desktop界面" class="headerlink" title="GitHub Desktop界面"></a>GitHub Desktop界面</h2><p><img src="https://desktop.github.com/images/screenshot-windows-dark.png" alt="GitHub Desktop界面"></p><h2 id="GitHub-Desktop-下载地址"><a href="#GitHub-Desktop-下载地址" class="headerlink" title="GitHub Desktop 下载地址"></a>GitHub Desktop 下载地址</h2><p><a href="https://desktop.github.com/">GitHub Desktop</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> git gui工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>github最新免费开源游戏-冒险岛</title>
+      <link href="2023/09/17/github-7/"/>
+      <url>2023/09/17/github-7/</url>
+      
+        <content type="html"><![CDATA[<p>一款十分好玩的开源冒险岛游戏，堪比冒险岛私服</p><a id="more"></a><p>一款国外大神制作的冒险岛开源游戏，堪比冒险岛私服，值得一玩。冒险岛083版本下载地址如下</p><h1 id="冒险岛开源版-下载地址和源码"><a href="#冒险岛开源版-下载地址和源码" class="headerlink" title="冒险岛开源版 下载地址和源码"></a>冒险岛开源版 下载地址和源码</h1><h2 id="开源地址：GitHub-ronancpl-HeavenMS-An-improved-server-based-on-MapleSolaxia-v83-MapleStory-private-server"><a href="#开源地址：GitHub-ronancpl-HeavenMS-An-improved-server-based-on-MapleSolaxia-v83-MapleStory-private-server" class="headerlink" title="开源地址：GitHub - ronancpl/HeavenMS: An improved server based on MapleSolaxia (v83 MapleStory private server)"></a>开源地址：GitHub - ronancpl/HeavenMS: An improved server based on MapleSolaxia (v83 MapleStory private server)</h2><h3 id="服务端下载地址"><a href="#服务端下载地址" class="headerlink" title="服务端下载地址"></a>服务端下载地址</h3><p>服务端：<a href="https://github.com/ronancpl/HeavenMS">https://github.com/ronancpl/HeavenMS</a></p><h3 id="客户端下载地址"><a href="#客户端下载地址" class="headerlink" title="客户端下载地址"></a>客户端下载地址</h3><p>客户端：<a href="https://drive.google.com/drive/folders/0BzDsHSr-0V4MYVJ0TWIxd05hYUk">https://drive.google.com/drive/folders/0BzDsHSr-0V4MYVJ0TWIxd05hYUk</a></p><h3 id="冒险岛开源破解版百度网盘下载地址"><a href="#冒险岛开源破解版百度网盘下载地址" class="headerlink" title="冒险岛开源破解版百度网盘下载地址"></a>冒险岛开源破解版百度网盘下载地址</h3><p>为了照顾打不开GitHub的同学，增加了百度网盘的冒险岛开源破解版下载地址，如下</p><p>链接：<a href="https://pan.baidu.com/s/1rpznv2JOPjaMfKKBBF5Efg">https://pan.baidu.com/s/1rpznv2JOPjaMfKKBBF5Efg</a><br>提取码：xwko </p><h1 id="冒险岛开源版运行环境"><a href="#冒险岛开源版运行环境" class="headerlink" title="冒险岛开源版运行环境"></a>冒险岛开源版运行环境</h1><p>JAVA:JDK7<br>数据库：Mysql</p><h1 id="如何启动冒险岛游戏"><a href="#如何启动冒险岛游戏" class="headerlink" title="如何启动冒险岛游戏"></a>如何启动冒险岛游戏</h1><p>先运行服务端，再运行客户端<br>可根据需要修改源码，让自己的游戏体验更好！</p><h1 id="冒险岛游戏界面"><a href="#冒险岛游戏界面" class="headerlink" title="冒险岛游戏界面"></a>冒险岛游戏界面</h1><p><img src="https://s2.loli.net/2023/09/17/e5oJOLnMTSuHacb.png" alt="image.png"></p><p><img src="https://s2.loli.net/2023/09/17/wFPbY2Q8D9hTGvZ.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 开源游戏 </tag>
+            
+            <tag> 冒险岛私服 </tag>
+            
+            <tag> 冒险岛破解版 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>不买iPhone的10个理由，iPhone15 你不要买</title>
       <link href="2023/09/15/apple-4/"/>
       <url>2023/09/15/apple-4/</url>
