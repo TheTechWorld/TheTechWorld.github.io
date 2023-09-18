@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>仅需3秒音频实现声音克隆</title>
+      <link href="2023/09/18/github-15/"/>
+      <url>2023/09/18/github-15/</url>
+      
+        <content type="html"><![CDATA[<p>声音克隆神器，快速克隆你的声音</p><a id="more"></a><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>B站效果演示视频： <a href="https://www.bilibili.com/video/BV1Dh4y1K7qJ/">https://www.bilibili.com/video/BV1Dh4y1K7qJ/</a><br>GitHub项目地址：<a href="https://github.com/Plachtaa/VALL-E-X">https://github.com/Plachtaa/VALL-E-X</a></p><h1 id="VALL-E-X声音克隆在线体验地址"><a href="#VALL-E-X声音克隆在线体验地址" class="headerlink" title="VALL-E X声音克隆在线体验地址"></a>VALL-E X声音克隆在线体验地址</h1><p>Hugging Face在线体验: <a href="https://huggingface.co/spaces/Plachta/VALL-E-X">https://huggingface.co/spaces/Plachta/VALL-E-X</a></p><p>Google Colab在线体验：<a href="https://colab.research.google.com/drive/1yyD_sz531QntLKowMHo-XxorsFBCfKul?usp=sharing">https://colab.research.google.com/drive/1yyD_sz531QntLKowMHo-XxorsFBCfKul?usp=sharing</a></p><p>写在前面<br>原文链接 ：<a href="https://github.com/Plachtaa/VALL-E-X/blob/master/README-ZH.md">https://github.com/Plachtaa/VALL-E-X/blob/master/README-ZH.md</a></p><p>B站效果演示视频： <a href="https://www.bilibili.com/video/BV1Dh4y1K7qJ/">https://www.bilibili.com/video/BV1Dh4y1K7qJ/</a><br>GitHub项目地址：<a href="https://github.com/Plachtaa/VALL-E-X">https://github.com/Plachtaa/VALL-E-X</a><br>Hugging Face在线体验: <a href="https://huggingface.co/spaces/Plachta/VALL-E-X">https://huggingface.co/spaces/Plachta/VALL-E-X</a><br>Google Colab在线体验：<a href="https://colab.research.google.com/drive/1yyD_sz531QntLKowMHo-XxorsFBCfKul?usp=sharing">https://colab.research.google.com/drive/1yyD_sz531QntLKowMHo-XxorsFBCfKul?usp=sharing</a></p><p>微软VALL-E X 零样本语音合成模型的开源实现.预训练模型现已向公众开放，供研究或应用使用。</p><p>VALL-E X 是一个强大而创新的多语言文本转语音（TTS）模型，最初由微软发布。虽然微软最初在他们的研究论文中提出了该概念，但并未发布任何代码或预训练模型。我们认识到了这项技术的潜力和价值，复现并训练了一个开源可用的VALL-E X模型。我们很乐意与社区分享我们的预训练模型，让每个人都能体验到次世代TTS的威力。 🎧<br>微软VALL-E X 零样本语音合成模型的开源实现.预训练模型现已向公众开放，供研究或应用使用。</p><h1 id="VALL-E-X声音快速克隆功能特点"><a href="#VALL-E-X声音快速克隆功能特点" class="headerlink" title="VALL-E X声音快速克隆功能特点"></a>VALL-E X声音快速克隆功能特点</h1><p>强大的VALL-E X 配备有一系列尖端功能：</p><p>多语言 TTS: 可使用三种语言 - 英语、中文和日语 - 进行自然、富有表现力的语音合成。</p><p>零样本语音克隆: 仅需录制任意说话人的短短的 3~10 秒录音，VALL-E X 就能生成个性化、高质量的语音，完美还原他们的声音。</p><details><summary><h5>查看示例</h5></summary><p>prompt.webm</p><p>output.webm</p></details><p>语音情感控制: VALL-E X 可以合成与给定说话人录音相同情感的语音，为音频增添更多表现力。</p><details><summary><h5>查看示例</h5></summary><p><a href="https://github.com/Plachtaa/VALL-E-X/assets/112609742/56fa9988-925e-4757-82c5-83ecb0df6266">https://github.com/Plachtaa/VALL-E-X/assets/112609742/56fa9988-925e-4757-82c5-83ecb0df6266</a></p><p><a href="https://github.com/Plachtaa/VALL-E-X/assets/112609742/699c47a3-d502-4801-8364-bd89bcc0b8f1">https://github.com/Plachtaa/VALL-E-X/assets/112609742/699c47a3-d502-4801-8364-bd89bcc0b8f1</a></p></details><p>零样本跨语言语音合成: VALL-E X 可以合成与给定说话人母语不同的另一种语言，在不影响口音和流利度的同时，保留该说话人的音色与情感。以下是一个使用日语母语者进行英文与中文合成的样例： 🇯🇵 🗣</p><details><summary><h5>查看示例</h5></summary><p>jp-prompt.webm</p><p>en-output.webm</p><p>zh-output.webm</p></details><p>口音控制: VALL-E X 允许您控制所合成音频的口音，比如说中文带英语口音或反之。 🇨🇳 💬</p><details><summary><h5>查看示例</h5></summary><p>en-prompt.webm</p><p>zh-accent-output.webm</p><p>en-accent-output.webm</p></details><p>声学环境保留: 当给定说话人的录音在不同的声学环境下录制时，VALL-E X 可以保留该声学环境，使合成语音听起来更加自然。</p><details><summary><h5>查看示例</h5></summary><p>noise-prompt.webm</p><p>noise-output.webm</p></details><h1 id="VALL-E-X声音克隆硬件要求"><a href="#VALL-E-X声音克隆硬件要求" class="headerlink" title="VALL-E X声音克隆硬件要求"></a>VALL-E X声音克隆硬件要求</h1><p>VALL-E X声音克隆<br>VALL-E X 可以在CPU或GPU上运行 (pytorch 2.0+, CUDA 11.7 ~ CUDA 12.0).</p><p>若使用GPU运行，你需要至少6GB的显存。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> VALL-E X </tag>
+            
+            <tag> 声音克隆 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AirPods 桌面用户体验增强程序 AirPodsDesktop</title>
+      <link href="2023/09/18/github-14/"/>
+      <url>2023/09/18/github-14/</url>
+      
+        <content type="html"><![CDATA[<p>让windows用户可以体验airpods的强大的免费工具</p><a id="more"></a><p>AirPodsDesktop 是一个开源免费 AirPods 桌面用户体验增强程序，适用于Windows 系统，作者GitHub<br>曾经有个付费软件叫 MagicPods，据称它可以实现「为 Windows 提供魔法般的 AirPods 体验」，AirPodsDesktop 为使用 AirPods 耳机和 Windows 系统的同学提供了另外一个选择</p><p>支持苹果ios系统的几乎全部功能</p><p><img src="https://pic.rmb.bdstatic.com/bjh/b4a2a78a180f0a9da7a5327e720565a79726.gif"></p><p><img src="https://s2.loli.net/2023/09/18/P6dhslMYiUTuCrJ.png" alt="image.png"></p><h1 id="AirPodsDesktop下载地址"><a href="#AirPodsDesktop下载地址" class="headerlink" title="AirPodsDesktop下载地址"></a>AirPodsDesktop下载地址</h1><p><img src="https://wwuc.lanzouj.com/i6dXw18uioda" alt="AirPodsDesktop下载地址"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> airpods </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>强迫症者福音,免费自动隐藏桌面图标软件——AutoHideDesktopIcons下载</title>
       <link href="2023/09/18/github-13/"/>
       <url>2023/09/18/github-13/</url>
