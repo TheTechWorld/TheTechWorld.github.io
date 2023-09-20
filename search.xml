@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>AI智能生成sql？Chat2DB 是一款有开源免费的多数据库客户端工具，支持windows、mac本地安装，也支持服务器端部署，web网页访问。</title>
+      <link href="2023/09/20/github-16/"/>
+      <url>2023/09/20/github-16/</url>
+      
+        <content type="html"><![CDATA[<p>和传统的数据库客户端软件Navicat、DBeaver 相比Chat2DB集成了AIGC的能力，能够将自然语言转换为SQL，也可以将SQL转换为自然语言，可以给出研发人员SQL的优化建议，极大的提升人员的效率，是AI时代数据库研发人员的利器，未来即使不懂SQL的运营业务也可以使用快速查询业务数据、生成报表能力。</p><a id="more"></a><h1 id="Chat2DB特性"><a href="#Chat2DB特性" class="headerlink" title="Chat2DB特性"></a>Chat2DB特性</h1><p>1、AI智能助手，支持自然语言转SQL、SQL转自然语言、SQL优化建议</p><p>2、支持团队协作，研发无需知道线上数据库密码，解决企业数据库账号安全问题</p><p>3、强大的数据管理能力，支持数据表、视图、存储过程、函数、触发器、索引、序列、用户、角色、授权等管理</p><p>4、强大的扩展能力，目前已经支持MySQL、PostgreSQL、Oracle、SQLServer、ClickHouse、OceanBase、H2、SQLite等等，未来会支持更多的数据库</p><p>5、前端使用 Electron 开发，提供 Windows、Mac、Linux 客户端、网页版本一体化的解决方案</p><p>6、支持环境隔离、线上、日常数据权限分离</p><h1 id="Chat2DB支持的数据"><a href="#Chat2DB支持的数据" class="headerlink" title="Chat2DB支持的数据"></a>Chat2DB支持的数据</h1><p>各种关系库、非关系库和时序数据库</p><p><img src="https://s2.loli.net/2023/09/20/hw2vIbmHpKYLj6J.png" alt="image.png"></p><h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><h2 id="配置数据库连接"><a href="#配置数据库连接" class="headerlink" title="配置数据库连接"></a>配置数据库连接</h2><p><img src="https://s2.loli.net/2023/09/20/Jimre1LFDHw9BCb.png" alt="image.png"></p><h2 id="配置openai-api-key和本地代理"><a href="#配置openai-api-key和本地代理" class="headerlink" title="配置openai api key和本地代理"></a>配置openai api key和本地代理</h2><p><img src="https://s2.loli.net/2023/09/20/UCnDw7j9im3hFze.png" alt="image.png"></p><h2 id="使用描述生成sql"><a href="#使用描述生成sql" class="headerlink" title="使用描述生成sql"></a>使用描述生成sql</h2><p><img src="https://s2.loli.net/2023/09/20/1Dgh3pjs7dZerRb.png" alt="image.png"></p><h1 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h1><p><a href="https://github.com/chat2db/Chat2DB/">https://github.com/chat2db/Chat2DB/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>仅需3秒音频实现声音克隆</title>
       <link href="2023/09/18/github-15/"/>
       <url>2023/09/18/github-15/</url>
