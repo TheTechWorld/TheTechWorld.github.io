@@ -4,6 +4,91 @@
   
     
     <entry>
+      <title>如何解决mac电脑的激活锁问题，教你快速解除激活锁，不花一分钱！</title>
+      <link href="2023/09/20/apple-6/"/>
+      <url>2023/09/20/apple-6/</url>
+      
+        <content type="html"><![CDATA[<p>教你用最快方法解除激活锁，不花一分钱</p><a id="more"></a><h1 id="mac-电脑或者iPhone被激活锁了？怎么办"><a href="#mac-电脑或者iPhone被激活锁了？怎么办" class="headerlink" title="mac 电脑或者iPhone被激活锁了？怎么办"></a>mac 电脑或者iPhone被激活锁了？怎么办</h1><p>你是否遇到了这样的情况，电脑设置中的iCloud绑定了账号，并且开启了“查找设备”，一旦你的apple 苹果账号出现问题，那么你的mac就成为了下图的状态，无法正常进入mac系统了！</p><p><img src="https://s2.loli.net/2023/09/20/2jd6acJusU3LfBP.png" alt="mac 激活锁"></p><h1 id="mac-激活锁的原因"><a href="#mac-激活锁的原因" class="headerlink" title="mac 激活锁的原因"></a>mac 激活锁的原因</h1><p>防止你的电脑失窃，意味着你的电脑丢失后，你可以停用账号，那么不知道账号密码或者无法登录账号邮箱的人就无法正常进入系统，苹果的策略真是安全，防止了设备的丢失。</p><p><img src="https://s2.loli.net/2023/09/20/S9rcgUDt3KhHp5k.png" alt="image.png"></p><h1 id="解除mac-激活锁的办法"><a href="#解除mac-激活锁的办法" class="headerlink" title="解除mac 激活锁的办法"></a>解除mac 激活锁的办法</h1><h2 id="第三方解锁"><a href="#第三方解锁" class="headerlink" title="第三方解锁"></a>第三方解锁</h2><p><img src="https://s2.loli.net/2023/09/20/HKZ5O3R8qoprDP4.png" alt="image.png"></p><p>通过第三方软件可以解除激活锁，但是你必须支付一定的费用</p><p><a href="https://www.manageengine.cn/mobile-device-management/how-to/mdm-turn-off-activation-lock.html">第三方解除mac激活锁软件</a></p><p>但是这些激活办法可能有些弊端，比如这些绕过激活锁的方法都有弊端，要么不能强制关机，要么就是不能更新系统</p><h2 id="官方解锁"><a href="#官方解锁" class="headerlink" title="官方解锁"></a>官方解锁</h2><p>苹果官方贴心的停供了官方解锁的入口，只要你提供发票，并且发票备注写着你电脑的序列号，那么不出几个小时，你的电脑就可以解锁了</p><p><img src="https://s2.loli.net/2023/09/20/KaO1gLCnW56xYPm.png" alt="image.png"></p><h1 id="如何正确使用激活锁"><a href="#如何正确使用激活锁" class="headerlink" title="如何正确使用激活锁"></a>如何正确使用激活锁</h1><ol><li>如果你的电脑在正常使用，那么记得开启激活锁，防止丢失</li><li>不要登录别人的账号在设置的iCloud中，为了下载app的话，可以在apple store中登录即可</li><li>关闭查找设备就可以避免mac iPhone激活锁的问题</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> apple </tag>
+            
+            <tag> mac </tag>
+            
+            <tag> iPhone 15 </tag>
+            
+            <tag> mac激活锁 </tag>
+            
+            <tag> iPhone激活锁 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>winrar去广告方法</title>
+      <link href="2023/09/20/win-1/"/>
+      <url>2023/09/20/win-1/</url>
+      
+        <content type="html"><![CDATA[<p>winrar如何去掉广告</p><a id="more"></a><p>WinRAR去广告已注册版打包方法及相关教程工具：</p><h1 id="第一步：安装WinRAR"><a href="#第一步：安装WinRAR" class="headerlink" title="第一步：安装WinRAR"></a>第一步：安装WinRAR</h1><p>1.安装winrar-x64-623sc.exe，记住安装路径，后面会用到，（比如安装在C:/Program Files/WinRAR）</p><p>2.在D盘创建“WinRAR”文件夹，把WinRAR安装包解压到这个文件夹里面 或复制WinRAR安装目录下的WinRAR.exe到D盘，并把WinRAR注册文件rarreg.key放进去</p><h1 id="第二步：去除非商业个人版WinRAR广告"><a href="#第二步：去除非商业个人版WinRAR广告" class="headerlink" title="第二步：去除非商业个人版WinRAR广告"></a>第二步：去除非商业个人版WinRAR广告</h1><p>用授权文件注册后无广告版WinRAR可跳过此步</p><p>用Resource Hacker（<a href="https://www.lanzoue.com/iS9Jlo603mf%EF%BC%89%E6%88%96Resource">https://www.lanzoue.com/iS9Jlo603mf）或Resource</a> Tuner（<a href="https://www.lanzoue.com/iU5Py173cb5a%EF%BC%89%E6%88%96">https://www.lanzoue.com/iU5Py173cb5a）或</a> eXeScope（<a href="https://www.lanzoue.com/i579cqj%EF%BC%89">https://www.lanzoue.com/i579cqj）</a> 打开刚刚复制的WinRAR.exe，修改 WinRAR.exe ,注意先关闭WinRAR ,字符串表 String Table 下 80: 中的 序号为 1277 行(有的WinRAR版本不一定是1277 行)，为广告代码”选定广告字串代码，右键点击删除或将其改掉一个字节，点击上面绿色的三角编译脚本，然后保存即可，如果提示无权限，可以先另存为，然后替换安装目录下的WinRAR.exe即可</p><p><img src="https://s2.loli.net/2023/09/20/3L6s8xevKJTfaz4.png" alt="image.png"></p><h1 id="第三步：制作setup-txt"><a href="#第三步：制作setup-txt" class="headerlink" title="第三步：制作setup.txt"></a>第三步：制作setup.txt</h1><p><img src="https://s2.loli.net/2023/09/20/nrklEusm9HM8bqp.png" alt="image.png"></p><p>方法一、</p><ol><li><p>右键点击未注册的WinRAR安装包，选择用WinRAR打开，点击信息＞注释，复制注释里面全部内容</p></li><li><p>新建setup.txt文档，把刚才复制的内容粘贴进去，保存编码为ANSI的文本文档</p></li></ol><p>方法二、</p><ol><li>复制winrar-x64-623sc.exe安装程序到D盘</li></ol><p>2.打开CMD命令窗口</p><p>3.进入WinRAR安装目录，以下为64位的路径，32位请自行确认</p><p>cd “C:\Program Files\WinRAR”</p><p>4.输入以下命令，获取安装注释：</p><p>WinRAR.exe cw d:\winrar-x64-623sc.exe d:\setup.txt</p><p>5.在D盘得到一个setup.txt文件，打开后有以下内容</p><p>  ; WinRAR<br>  ; Multifunctional Integrated Archive Manager<br>  Title=WinRAR *.**   #这个为安装包的标题内容，可视情况修改<br>………</p><h1 id="第四步：制作setup-sfx"><a href="#第四步：制作setup-sfx" class="headerlink" title="第四步：制作setup.sfx"></a>第四步：制作setup.sfx</h1><p>方法一、</p><p>1.用010 Editor (<a href="https://www.lanzoue.com/iOvQ601e6n3i">https://www.lanzoue.com/iOvQ601e6n3i</a>) 或Winhex(<a href="https://www.lanzoue.com/iP3Q513dodza)%E6%89%93%E5%BC%80WinRAR.exe%E5%AE%98%E6%96%B9%E5%AE%89%E8%A3%85%E5%8C%85winrar-x64-623sc.exe">https://www.lanzoue.com/iP3Q513dodza)打开WinRAR.exe官方安装包winrar-x64-623sc.exe</a></p><p>2.按Ctrl+F快捷键或者点击工具栏搜索＞查找文本 ASCII码   输入“ Rar! ”（不包含引号），确定搜索。</p><p>54217221就是Rar!的十六进制值，删除掉52617221即  “  RAr!  ” 后面的所有内容</p><p>用010 Editor可直接拖动到末尾删除，用Winhex的具体操作步骤是：<br>选中54217221即  “  RAr!  ” 后面的第一个十六进制值，按Alt+1或者右键选择选块起始<br>把滚动条拉到最下面，选中最后一位十六进制值，按Alt+2或者右键选择选块结束<br>按Delete键删除-&gt;在弹出的对话框中点击”是”</p><ol start="3"><li>点击工具栏文件＞另存为，文件名改成setup.sfx，然后将文件另存为setup.sfx，将文件保存到D盘根目录</li></ol><p>4.将setup.sfx重命名为setup.exe 运行测试一下是否正常</p><p>方法二、</p><ol><li>用CFF Explorer 8.0单文件绿色版(<a href="https://www.lanzoue.com/imEEU18v99ze">https://WWW.lanzoue.com/imEEU18v99ze</a>)  打开 winrar-x64-623sc.exe<br>在Data Directoctories  找到          Offset  000001CB  行的  Value 值： 386EB8  </li></ol><ol start="2"><li>安装Hex Workshop 4.23(<a href="https://www.lanzoue.com/i9Fdx18vbnbg)%E5%B9%B6%E7%94%A8%E5%85%B6%E6%89%93%E5%BC%80">https://www.lanzoue.com/i9Fdx18vbnbg)并用其打开</a> winrar-x64-623sc.exe</li></ol><p>按快捷键进入搜索 Crtl + F，输入 “  RAr!  ”   查找到 偏移地址值为： 78800</p><p>3.Edit -&gt; Select Block 输入：78800 加4后的偏移地址值： 78804  选定 Hex  Size of Block</p><p>4.Edit -&gt; Select Block 输入：  386EB8 减 1后偏移地址 386EB7 选定 Hex Ending Position</p><p>5.选定后按Edit -&gt; Delete 进行删除选中的块 或直接按Delete键删除</p><p>6.File  -&gt; Save as 另存到D盘根目录为：   setup.sfx   </p><p>将setup.sfx重命名为setup.exe 运行测试一下是否正常</p><p>方法三、</p><p>用Winhex(<a href="https://www.lanzoue.com/iP3Q513dodza)%E6%89%93%E5%BC%80winrar-x64-623sc.exe">https://www.lanzoue.com/iP3Q513dodza)打开winrar-x64-623sc.exe</a></p><ol><li>点击编辑 -&gt; 定义选块，开始输入：78804，结束输入：386EB7，点击确定</li></ol><ol start="2"><li>点击编辑 -&gt; X 移除-&gt;在弹出的对话框中点击”是”</li></ol><ol start="3"><li>点击文件 -&gt; 另存到D盘根目录为：setup.sfx   </li></ol><p>4.将setup.sfx重命名为setup.exe 运行测试一下是否正常</p><h1 id="第五步：提取WinRAR图标文件"><a href="#第五步：提取WinRAR图标文件" class="headerlink" title="第五步：提取WinRAR图标文件"></a>第五步：提取WinRAR图标文件</h1><ol><li>打开7zip，定位到D:/WinRAR文件夹，选择WinRAR.exe，右键选择7-zip＞打开压缩包</li><li>在弹出窗口中打开.rsrc文件夹＞打开ICON文件夹，把里面的13文件解压出来，并把13文件重命名为WinRAR.ico<br>或用ico图标提取工具直接提取WinRAR的ico图标文件</li></ol><h1 id="第六步：开始制作WinRAR安装包"><a href="#第六步：开始制作WinRAR安装包" class="headerlink" title="第六步：开始制作WinRAR安装包"></a>第六步：开始制作WinRAR安装包</h1><p>方法一、</p><p>1.将要打包的所有WinRAR解压文件和文件夹及授权文件授权文件rarreg.key复制到D:\WinRAR文件夹中</p><p>2.打开CMD命令窗口，并进入WinRAR安装目录</p><p>cd “C:\Program Files\WinRAR”</p><p>3.输入以下命令，进行安装包程序打包   </p><p>Rar.exe a -r -k -ep1 -cfg- -s -m5 -zd:\setup.txt -sfxd:\setup.sfx d:\winrar-x64-623sc.exe D:WinRAR*.*</p><p>4.命令执行完毕后，会在D盘生成winrar-x64-623sc.exe文件，测试打包后winrar-x64-623sc.exe程序能正常安装即可</p><p>方法二、</p><ol><li>复制setup.sfx到WinRAR安装目录： C:/Program Files/WinRAR</li><li>将D:/WinRAR文件夹 改名成 D:/WinRAR 已注册，全选里面的文件，右键选择到添加压缩文件</li><li>在常规选项卡，压缩方式选最好，勾选创建自解压格式压缩文件，勾选创建固实压缩文件，勾选锁定压缩文件</li></ol><ol start="4"><li>点击高级选项卡，点击自解压选项，点击模块，选择setup.sfx，点击文本和图标，在从文件加载自解压文件图标，点击浏览＞选择WinRAR.ico，点击确定</li><li>点击注释＞从文件中添加注释＞浏览＞选择setup.txt，点击打开，点击确定。就会在D:/WinRAR 已注册文件夹生成包含了注册文件的WinRAR安装包WinRAR 已注册.exe<br>或点击注释＞手动输入注释内容＞输入未注册的WinRAR的注释内容（右键点击未注册的WinRAR安装包，选择用WinRAR打开，点击信息＞注释，复制注释里面全部内容）</li></ol><p>方法三、</p><p>下载WinRAR 解除锁定限制补丁(<a href="https://www.lanzoue.com/iM1E81922jba">https://www.lanzoue.com/iM1E81922jba</a>)</p><p>将winrar-x64-623sc.exe文件拖到 “压缩文件锁定解锁工具RAR Unlocker 4.0英文版或汉化版”补丁上，点击 “Unlock” 或 “解锁”</p><p>或将WinRAR-x32-x64-LockPatch-2.0复制到WinRAR安装目录C:/Program Files/WinRAR后,双击运行补丁,点击”应用”,WinRAR安装目录C:/Program Files/WinRAR中的WinRAR.exe程序就变成了解除锁定版WinRAR程序</p><p>就能解除winrar-x64-623sc.exe自解压程序安装包的锁定,可将修改过的文件WinRAR.exe和授权文件rarreg.key按下列图示方法添加进官方原版winrar-x64-623sc.exe文件中，重新压缩即可得到新打包的WinRAR修改程序</p><p>或安装以解除锁定的烈火汉化版WinRAR, 然后用烈火汉化版WinRAR打开官方原版winrar-x64-623sc.exe<br>再将修改过的文件WinRAR.exe和授权文件rarreg.key按下列图示方法添加进官方原版winrar-x64-623sc.exe文件中，重新压缩即可得到新打包的WinRAR修改程序</p><p>WinRAR去广告已注册版打包方法及相关教程工具下载链接：<a href="https://www.lanzoue.com/ismHA195fxaj">https://www.lanzoue.com/ismHA195fxaj</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>iPhone 15 多平台价格对比，究竟哪个平台的价格便宜</title>
+      <link href="2023/09/20/apple-5/"/>
+      <url>2023/09/20/apple-5/</url>
+      
+        <content type="html"><![CDATA[<p>究竟从哪个平台才能买到价格最合适的苹果手机</p><a id="more"></a><h1 id="京东"><a href="#京东" class="headerlink" title="京东"></a>京东</h1><p>iphone 15 128GB 5999<br>iPhone 15 pro 256GB 8999</p><h1 id="淘宝"><a href="#淘宝" class="headerlink" title="淘宝"></a>淘宝</h1><p>iphone 15 128GB 5999<br>iPhone 15 pro 256GB 8999<br>iPhone 15 pro 128GB 7999<br>iPhone 15 pro 512GB 10999<br>iPhone 15 pro 1TB 12999</p><h1 id="拼多多"><a href="#拼多多" class="headerlink" title="拼多多"></a>拼多多</h1><p><img src="https://s2.loli.net/2023/09/20/OjCM17y2lfFWgsd.png" alt="image.png"></p><p>iphone 15 128GB 5595<br>iphone 15 256GB 6595<br>iPhone 15 pro 256GB 8496</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> apple </tag>
+            
+            <tag> iPhone 15 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小心！你的微信聊天正被公司实时监控！</title>
       <link href="2023/09/20/code-4/"/>
       <url>2023/09/20/code-4/</url>

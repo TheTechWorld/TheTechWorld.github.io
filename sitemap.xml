@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thetechworld.github.io/2023/09/20/apple-6/</loc>
+    
+    <lastmod>2023-09-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/2023/09/20/win-1/</loc>
+    
+    <lastmod>2023-09-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/2023/09/20/apple-5/</loc>
+    
+    <lastmod>2023-09-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thetechworld.github.io/2023/09/20/code-4/</loc>
     
     <lastmod>2023-09-20</lastmod>
@@ -1048,6 +1069,34 @@
   
   <url>
     <loc>https://thetechworld.github.io/tags/%E5%BE%AE%E4%BF%A1%E7%9B%91%E6%8E%A7/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/iPhone-15/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/mac%E6%BF%80%E6%B4%BB%E9%94%81/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/iPhone%E6%BF%80%E6%B4%BB%E9%94%81/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/windows/</loc>
     <lastmod>2023-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
