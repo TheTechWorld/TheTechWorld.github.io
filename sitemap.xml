@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thetechworld.github.io/2023/11/11/soft-31/</loc>
+    
+    <lastmod>2023-11-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/2023/11/11/soft-30/</loc>
+    
+    <lastmod>2023-11-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/2023/11/11/soft-29/</loc>
+    
+    <lastmod>2023-11-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thetechworld.github.io/2023/11/11/code-15/</loc>
     
     <lastmod>2023-11-11</lastmod>
@@ -1461,6 +1482,27 @@
   
   <url>
     <loc>https://thetechworld.github.io/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2023-11-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6%E4%B8%8B%E8%BD%BD/</loc>
+    <lastmod>2023-11-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6%E5%A4%A7%E5%85%A8/</loc>
+    <lastmod>2023-11-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thetechworld.github.io/tags/%E5%8E%9F%E5%88%9B%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2023-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
