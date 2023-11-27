@@ -4,6 +4,256 @@
   
     
     <entry>
+      <title>最新破解版 Typora无限试用</title>
+      <link href="2023/11/27/soft-48-1/"/>
+      <url>2023/11/27/soft-48-1/</url>
+      
+        <content type="html"><![CDATA[<p>最新破解版 Typora无限试用</p><a id="more"></a><p><img src="https://s2.loli.net/2023/11/27/W1oRvjybXnHMImw.png" alt="image.png"></p><p><img src="https://s2.loli.net/2023/11/27/IMzTdxou6iZSNmf.png" alt="image.png"></p><p>通过修改注册表，达到Typora的无限试用机制</p><h1 id="Typora无限试用修改注册表代码"><a href="#Typora无限试用修改注册表代码" class="headerlink" title="Typora无限试用修改注册表代码"></a>Typora无限试用修改注册表代码</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">setlocal enabledelayedexpansion</span><br><span class="line">chcp 65001 &gt; nul</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">REM 获取当前日期，格式为MM&#x2F;dd&#x2F;yyyy</span><br><span class="line">for &#x2F;f &quot;delims&#x3D;&quot; %%a in (&#39;wmic OS Get localdatetime ^| find &quot;.&quot;&#39;) do set datetime&#x3D;%%a</span><br><span class="line">set &quot;year&#x3D;!datetime:~0,4!&quot;</span><br><span class="line">set &quot;month&#x3D;!datetime:~4,2!&quot;</span><br><span class="line">set &quot;day&#x3D;!datetime:~6,2!&quot;</span><br><span class="line">set &quot;date&#x3D;!month!&#x2F;!day!&#x2F;!year!&quot;</span><br><span class="line"> </span><br><span class="line">REM 设置注册表项</span><br><span class="line">reg add &quot;HKEY_CURRENT_USER\Software\Typora&quot; &#x2F;v IDate &#x2F;t REG_SZ &#x2F;d &quot;!date!&quot; &#x2F;f &gt; nul</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">endlocal</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>字体反爬ai识别转换代码</title>
+      <link href="2023/11/27/soft-48/"/>
+      <url>2023/11/27/soft-48/</url>
+      
+        <content type="html"><![CDATA[<p>字体反爬ai识别转换代码</p><a id="more"></a><p>pip install cnocr<br>如果报错 ：</p><ol><li>ERROR: Failed building wheel for Polygon3<br>直接通过whl 安装Polygon3<br><a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#polygon">https://www.lfd.uci.edu/~gohlke/pythonlibs/#polygon</a><br>即在上述链接中 选择 Polygon3-3.0.9.1-cp38-cp38-win_amd64.whl 下载安装即可</li></ol><ol start="2"><li>在实际执行中发现 cv2找不到 某个函数，不要犹豫，大概率是opencv-python 的差异，建议直接升级到最高版本<br>pip install –user opencv-python –upgrade</li></ol><ol start="3"><li>代码如下</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line">from PIL import ImageFont, Image, ImageDraw</span><br><span class="line"> </span><br><span class="line">from cnocr import CnOcr</span><br><span class="line">import numpy as np</span><br><span class="line">from fontTools.ttLib import TTFont</span><br><span class="line">import requests</span><br><span class="line">from io import BytesIO</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">def font_to_img(code_list, filename, ignore_flag&#x3D;True, score&#x3D;0.95):</span><br><span class="line">    normal_dict &#x3D; &#123;&#125;</span><br><span class="line">    be_padding_dict &#x3D; &#123;&#125;</span><br><span class="line">    ocr &#x3D; CnOcr()</span><br><span class="line">    &quot;&quot;&quot;</span><br><span class="line">        将字体画成图片</span><br><span class="line">        code_list: 加密字符列表</span><br><span class="line">        filename: 字体文件</span><br><span class="line">        ignore_flag：是否忽视 sorce 返回结果</span><br><span class="line">        score: 识别准确率默认 95%以上</span><br><span class="line">    &quot;&quot;&quot;</span><br><span class="line">    for char_list in code_list:</span><br><span class="line">        char_code &#x3D; char_list.encode().decode()</span><br><span class="line">        img_size &#x3D; 1024</span><br><span class="line">        img &#x3D; Image.new(&#39;1&#39;, (img_size, img_size), 255)</span><br><span class="line">        draw &#x3D; ImageDraw.Draw(img)</span><br><span class="line">        font &#x3D; ImageFont.truetype(filename, int(img_size * 0.7))</span><br><span class="line">        x, y &#x3D; draw.textsize(char_code, font&#x3D;font)</span><br><span class="line">        draw.text(((img_size - x) &#x2F;&#x2F; 2, (img_size - y) &#x2F;&#x2F; 2), char_code, font&#x3D;font, fill&#x3D;0)</span><br><span class="line">        # 将单通道 转为 三通道</span><br><span class="line">        img &#x3D; img.convert(&quot;RGB&quot;)</span><br><span class="line">        # word &#x3D; ocr.ocr_for_single_line(&quot;%s.jpg&quot; % mame_ocr)</span><br><span class="line">        word &#x3D; ocr.ocr_for_single_line(np.array(img))</span><br><span class="line">        if word[&quot;score&quot;] &gt;&#x3D; score:</span><br><span class="line">            # 处理重复名字</span><br><span class="line">            # img.save(&quot;%s_%s.jpg&quot; % (char_code, word[&quot;text&quot;]))</span><br><span class="line">            normal_dict[char_code] &#x3D; word[&quot;text&quot;]</span><br><span class="line">        else:</span><br><span class="line">            be_padding_dict[char_code] &#x3D; word</span><br><span class="line">            img.save(&quot;%s_%s_be_padding.jpg&quot; % (char_code, word[&quot;text&quot;]))</span><br><span class="line">            if ignore_flag:</span><br><span class="line">                normal_dict[char_code] &#x3D; word[&quot;text&quot;]</span><br><span class="line">    return normal_dict, be_padding_dict</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">def ttf_parse(url, ttf_name):</span><br><span class="line">    &quot;&quot;&quot;</span><br><span class="line">        根据url 获取返回值</span><br><span class="line">    &quot;&quot;&quot;</span><br><span class="line">    response &#x3D; requests.get(url)</span><br><span class="line">    font_parse &#x3D; TTFont(BytesIO(response.content))</span><br><span class="line">    font_parse.save(ttf_name)</span><br><span class="line">    m_dict &#x3D; font_parse.getBestCmap()</span><br><span class="line">    unicode_list &#x3D; []</span><br><span class="line">    for key, _ in m_dict.items():</span><br><span class="line">        unicode_list.append(key)</span><br><span class="line">    # 获取需要判断的字符</span><br><span class="line">    char_list &#x3D; [chr(ch_unicode) for ch_unicode in unicode_list]</span><br><span class="line">    normal_dict, error_dict &#x3D; font_to_img(char_list, ttf_name)</span><br><span class="line">    print(normal_dict)</span><br><span class="line">    print(error_dict)</span><br><span class="line">    # 删除字体文件</span><br><span class="line">    os.remove(ttf_name)</span><br></pre></td></tr></table></figure><ol start="4"><li>识别效果如下</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#123;&#39;\uec20&#39;: &#39;公&#39;, &#39;\uec29&#39;: &#39;是&#39;, &#39;\uec2a&#39;: &#39;当&#39;, &#39;\uec31&#39;: &#39;矮&#39;, &#39;\uec33&#39;: &#39;了&#39;, &#39;\uec3a&#39;: &#39;保&#39;, &#39;\uec43&#39;: &#39;近&#39;, &#39;\uec44&#39;: &#39;味&#39;, &#39;\uec4c&#39;: &#39;七&#39;, &#39;\uec4d&#39;: &#39;的&#39;, &#39;\uec56&#39;: &#39;量&#39;, &#39;\uec5f&#39;: &#39;坐&#39;, &#39;\uec60&#39;: &#39;地&#39;, &#39;\uec66&#39;: &#39;盘&#39;, &#39;\uec67&#39;: &#39;只&#39;, &#39;\uec70&#39;: &#39;身&#39;, &#39;\uec79&#39;: &#39;不&#39;, &#39;\uec7a&#39;: &#39;八&#39;, &#39;\uec82&#39;: &#39;三&#39;, &#39;\uec8c&#39;: &#39;养&#39;, &#39;\uec93&#39;: &#39;雨&#39;, &#39;\uec95&#39;: &#39;二&#39;, &#39;\uec9c&#39;: &#39;很&#39;, &#39;\uec9d&#39;: &#39;内&#39;, &#39;\ueca6&#39;: &#39;硬&#39;, &#39;\uecad&#39;: &#39;过&#39;, &#39;\uecaf&#39;: &#39;下&#39;, &#39;\uecb8&#39;: &#39;控&#39;, &#39;\uecc0&#39;: &#39;空&#39;, &#39;\uecc2&#39;: &#39;长&#39;, &#39;\uecc9&#39;: &#39;开&#39;, &#39;\ueccb&#39;: &#39;低&#39;, &#39;\uecda&#39;: &#39;真&#39;, &#39;\uecdc&#39;: &#39;副&#39;, &#39;\uece3&#39;: &#39;动&#39;, &#39;\uece5&#39;: &#39;实&#39;, &#39;\ueced&#39;: &#39;自&#39;, &#39;\uecf6&#39;: &#39;少&#39;, &#39;\uecf8&#39;: &#39;启&#39;, &#39;\uecfd&#39;: &#39;右&#39;, &#39;\uecff&#39;: &#39;和&#39;, &#39;\ued08&#39;: &#39;十&#39;, &#39;\ued09&#39;: &#39;多&#39;, &#39;\ued10&#39;: &#39;比&#39;, &#39;\ued12&#39;: &#39;五&#39;, &#39;\ued19&#39;: &#39;门&#39;, &#39;\ued23&#39;: &#39;着&#39;, &#39;\ued2b&#39;: &#39;油&#39;, &#39;\ued2c&#39;: &#39;音&#39;, &#39;\ued35&#39;: &#39;手&#39;, &#39;\ued3e&#39;: &#39;软&#39;, &#39;\ued3f&#39;: &#39;小&#39;, &#39;\ued45&#39;: &#39;无&#39;, &#39;\ued46&#39;: &#39;六&#39;, &#39;\ued4f&#39;: &#39;泥&#39;, &#39;\ued58&#39;: &#39;中&#39;, &#39;\ued59&#39;: &#39;路&#39;, &#39;\ued61&#39;: &#39;大&#39;, &#39;\ued62&#39;: &#39;响&#39;, &#39;\ued6b&#39;: &#39;加&#39;, &#39;\ued72&#39;: &#39;排&#39;, &#39;\ued74&#39;: &#39;机&#39;, &#39;\ued7b&#39;: &#39;高&#39;, &#39;\ued7c&#39;: &#39;级&#39;, &#39;\ued85&#39;: &#39;冷&#39;, &#39;\ued8e&#39;: &#39;灯&#39;, &#39;\ued8f&#39;: &#39;耗&#39;, &#39;\ued97&#39;: &#39;呢&#39;, &#39;\ued9f&#39;: &#39;问&#39;, &#39;\ueda1&#39;: &#39;上&#39;, &#39;\ueda8&#39;: &#39;四&#39;, &#39;\uedaa&#39;: &#39;九&#39;, &#39;\uedb1&#39;: &#39;一&#39;, &#39;\uedbb&#39;: &#39;档&#39;, &#39;\uedbd&#39;: &#39;皮&#39;, &#39;\uedc2&#39;: &#39;性&#39;, &#39;\uedc4&#39;: &#39;左&#39;, &#39;\uedcc&#39;: &#39;里&#39;, &#39;\uedcd&#39;: &#39;更&#39;, &#39;\uedd5&#39;: &#39;短&#39;, &#39;\uedd7&#39;: &#39;光&#39;, &#39;\ueddc&#39;: &#39;好&#39;, &#39;\uedde&#39;: &#39;外&#39;, &#39;\uedef&#39;: &#39;来&#39;, &#39;\uedf1&#39;: &#39;远&#39;, &#39;\uedf8&#39;: &#39;有&#39;, &#39;\uedfa&#39;: &#39;坏&#39;, &#39;\uee02&#39;: &#39;孩&#39;, &#39;\uee0a&#39;: &#39;得&#39;, &#39;\uee0b&#39;: &#39;电&#39;&#125;</span><br><span class="line">以评分95% 做分割 ，下面是可能不对的，经过对比图片发现没有错误。只是评分较低。</span><br><span class="line">&#123;&#39;\uec33&#39;: &#123;&#39;text&#39;: &#39;了&#39;, &#39;score&#39;: 0.8509207963943481&#125;, &#39;\uec7a&#39;: &#123;&#39;text&#39;: &#39;八&#39;, &#39;score&#39;: 0.8456708192825317&#125;, &#39;\uec82&#39;: &#123;&#39;text&#39;: &#39;三&#39;, &#39;score&#39;: 0.8965854644775391&#125;, &#39;\uec95&#39;: &#123;&#39;text&#39;: &#39;二&#39;, &#39;score&#39;: 0.9056768417358398&#125;, &#39;\uecaf&#39;: &#123;&#39;text&#39;: &#39;下&#39;, &#39;score&#39;: 0.8665554523468018&#125;, &#39;\uece3&#39;: &#123;&#39;text&#39;: &#39;动&#39;, &#39;score&#39;: 0.9179448485374451&#125;, &#39;\ueced&#39;: &#123;&#39;text&#39;: &#39;自&#39;, &#39;score&#39;: 0.9478009343147278&#125;, &#39;\uecfd&#39;: &#123;&#39;text&#39;: &#39;右&#39;, &#39;score&#39;: 0.8674691319465637&#125;, &#39;\uedb1&#39;: &#123;&#39;text&#39;: &#39;一&#39;, &#39;score&#39;: 0.8194031715393066&#125;, &#39;\uedde&#39;: &#123;&#39;text&#39;: &#39;外&#39;, &#39;score&#39;: 0.9190731048583984&#125;, &#39;\uee02&#39;: &#123;&#39;text&#39;: &#39;孩&#39;, &#39;score&#39;: 0.6236460208892822&#125;&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>web逆向——破解引流公众号验证码</title>
+      <link href="2023/11/27/soft-47/"/>
+      <url>2023/11/27/soft-47/</url>
+      
+        <content type="html"><![CDATA[<p>web逆向——破解引流公众号验证码，不再用关注公众号</p><a id="more"></a><p><img src="https://s2.loli.net/2023/11/27/B9ZuQCKm3pvIyog.png" alt="image.png"></p><p>打断点找到位置</p><p><img src="https://s2.loli.net/2023/11/27/qrvzQWlF4hNXCDV.png" alt="image.png"></p><p>保存到本地</p><p>修改js代码 即可</p><p><img src="https://s2.loli.net/2023/11/27/P76Sy3pBGKOhVfT.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重磅！U盘修复软件（USB Repair）汉化绿色版</title>
+      <link href="2023/11/27/soft-46/"/>
+      <url>2023/11/27/soft-46/</url>
+      
+        <content type="html"><![CDATA[<p>U盘修复软件（USB Repair）汉化绿色版</p><a id="more"></a><p>USB修复是一个易于使用的应用程序，可以尝试修复USB设备错误或USB驱动器安装失败。它也是解决其他几个设备管理器错误代码的可能方案。这些错误代码包括代码19、代码31、代码32、代码37、代码39和代码41。<br>遇到USB设备问题时，通常会考虑重新安装Windows或使用系统还原将其还原到以前的功能版本。但是，使用此工具时可能没有必要这样做。希望它能解决你的USB设备问题，但不能保证它能正常工作。USB设备可能会出现一千种问题，包括物理硬件损坏。此工具尝试解决USB设备配置错误，仅此而已。</p><p>在运行USB修复之前，请先创建一个系统还原点，以防万一出现问题。您可以通过单击主程序界面上“工具”菜单下的“创建 Windows 还原点”菜单项来创建系统还原点。</p><p>界面非常简单，只需单击一下即可执行所有操作。您无需编辑注册表项或进行其他复杂的设置即可修复USB设备错误。要修复 Windows 中的 USB 设备错误，请下载并运行 USB 修复工具。在主界面上，单击“修复USB”按钮。重新启动计算机并检查问题是否已解决。否则，可能是物理硬件有问题。</p><p><img src="https://s2.loli.net/2023/11/27/iPtQ5GaEuWNmMxs.png" alt="image.png"></p><p>下载地址——<a href="https://52-pj.lanzouq.com/i4vlO1fcfe0d">https://52-pj.lanzouq.com/i4vlO1fcfe0d</a> 密码:52pj</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>免费健身软件推荐——【健身教练】1.1.5版本【男生女生福利】</title>
+      <link href="2023/11/27/soft-45/"/>
+      <url>2023/11/27/soft-45/</url>
+      
+        <content type="html"><![CDATA[<p>【健身教练】1.1.5版本【男生女生福利】</p><a id="more"></a><h1 id="帮助你快速减肥"><a href="#帮助你快速减肥" class="headerlink" title="帮助你快速减肥"></a>帮助你快速减肥</h1><p><img src="https://s2.loli.net/2023/11/27/vGpS3FRDyadhUmo.png" alt="image.png"></p><p>分享给每一个渴望拥有美好身材的朋友，软件无广告，界面清爽，无需器材的居家健身规划工具，提高你的减肥效率。不论你想针对核心肌群、臀、腿、手臂、胸或全身进行锻炼，都能找到适合你的计划。</p><p>1.根据你的健身目标量身打造健身计划及训练<br>2.在家也能做、无需器材的自重训练<br>3.初级、中级及高级，满足你的不同需求<br>4.据说有超过100种由专家设计的运动<br>5.个人数据追踪图表</p><p>下载：<br><a href="https://www.aliyundrive.com/s/2qijDcdaWXo">https://www.aliyundrive.com/s/2qijDcdaWXo</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>护眼工具 CareUEyes 2.2.9.0 官方原版安装包</title>
+      <link href="2023/11/27/soft-44/"/>
+      <url>2023/11/27/soft-44/</url>
+      
+        <content type="html"><![CDATA[<p>护眼工具 CareUEyes 2.2.9.0 官方原版安装包</p><a id="more"></a><p><img src="https://s2.loli.net/2023/11/27/dKSiJIzOyLACeZP.png" alt="image.png"></p><p>CareUEyes是一款专业的屏幕护眼软件，它可以通过调整屏幕亮度和色温来减少眼部疲劳和视觉疲劳。</p><p>CareUEyes提供自动模式和手动模式两种操作方式，用户可以根据需要设置不同的模式和参数。</p><p>其自动模式可以根据时间自动调整亮度和色温，手动模式则支持自定义调节，用户可根据实际情况灵活调整。</p><p>此外，CareUEyes还提供了休息提醒、定时休息等功能，帮助用户合理安排工作时间和休息时间，有效预防眼睛疲劳和颈椎病等问题。</p><p>适合长时间使用电脑的人员使用。</p><p>功能：减轻眼睛疲劳+蓝光过滤+亮度调节+休息提醒+.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>上班摸鱼神器-纯透明小说阅读工具</title>
+      <link href="2023/11/27/soft-43/"/>
+      <url>2023/11/27/soft-43/</url>
+      
+        <content type="html"><![CDATA[<p>上班摸鱼神器-纯透明小说阅读工具</p><a id="more"></a><h1 id="摸鱼神器特色"><a href="#摸鱼神器特色" class="headerlink" title="摸鱼神器特色"></a>摸鱼神器特色</h1><p>1、纯透明背景，默认的灰色字体，放桌面任何位置都合适。<br>2、可设置鼠标移出隐藏/移入显示，全局快捷键隐藏显示。<br>3、可设置字体透明度，字体颜色，字体大小。<br>4、可设置滚动条隐藏、任务栏隐藏、小图标隐藏。<br>5、可自动翻页或快捷键翻页。<br>6、带有目录跳转，文字跳转，多书籍书签。<br>7、内置小说爬虫，轻松爬取各网站小说，并优化排版。<br>8、退出时记录观看位置、窗体大小、窗体位置等信息，下次读书更方便。</p><p>下载地址——V8版本地址：<a href="https://wwnp.lanzouw.com/ijyyP1fkwnna">https://wwnp.lanzouw.com/ijyyP1fkwnna</a>       密码：8888</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最新聚合直播Simple Live v1.4.5绿色无广告 支持哔哩哔哩/虎牙/斗鱼/抖音直播</title>
+      <link href="2023/11/27/soft-42/"/>
+      <url>2023/11/27/soft-42/</url>
+      
+        <content type="html"><![CDATA[<p>聚合直播Simple Live v1.4.5绿色无广告 支持哔哩哔哩/虎牙/斗鱼/抖音直播</p><a id="more"></a><p>喜欢看直播的小伙伴有福了</p><h1 id="最新聚合直播软件"><a href="#最新聚合直播软件" class="headerlink" title="最新聚合直播软件"></a>最新聚合直播软件</h1><p>让你减少app的安装 最方便的观看多个平台的资源</p><p>1、聚合直播Simple Live v1.4.5绿色无广告 支持哔哩哔哩/虎牙/斗鱼/抖音直播<br>支持弹幕显示，无广告，占用空间小！</p><p>获取各个平台的直播信息及弹幕，基于AllLive项目实现，内容均来自各大平台官方直播页面。<br>2、JustLive v0.3.4 支持哔哩哔哩/虎牙/斗鱼/抖音直播/网易CC<br>3、pure_live v1.1.0 支持哔哩哔哩/虎牙/斗鱼</p><p><img src="https://s2.loli.net/2023/11/27/NPLykJfSM5g9ich.png" alt="image.png"></p><h1 id="最新聚合直播下载地址"><a href="#最新聚合直播下载地址" class="headerlink" title="最新聚合直播下载地址"></a>最新聚合直播下载地址</h1><p>Simple Live下载地址：<a href="https://wwql.lanzout.com/b02xaj10b">https://wwql.lanzout.com/b02xaj10b</a> 密码:b99k</p><p>JustLive下载地址：<a href="https://wwql.lanzout.com/imeYa1fkx5za">https://wwql.lanzout.com/imeYa1fkx5za</a> 密码:2eon</p><p>pure_live下载地址：<a href="https://wwql.lanzout.com/iKIWB1fkx5oj">https://wwql.lanzout.com/iKIWB1fkx5oj</a> 密码:2q52</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>磁盘清理工具 便携版 Wise Disk Cleaner</title>
+      <link href="2023/11/27/soft-41/"/>
+      <url>2023/11/27/soft-41/</url>
+      
+        <content type="html"><![CDATA[<p>磁盘清理工具 便携版 Wise Disk Cleaner </p><a id="more"></a><p>Wise Disk Cleaner 是一款免费的磁盘清理工具，可以帮助用户释放磁盘空间，加快计算机的运行速度。</p><p>它可以扫描并删除临时文件、历史记录、无效的程序文件、垃圾文件和其他不必要的文件，从而为您腾出更多的硬盘空间。</p><p>除了基本的磁盘清理功能，Wise Disk Cleaner 还提供了高级选项，使用户可以选择特定类型的文件进行清理，例如 Windows 更新备份文件、日志文件、浏览器缓存和 Cookie 文件等。</p><p>此外，该程序还包括一个可自定义的清理计划，让您可以按计划自动执行清理任务，确保您的电脑一直处于最佳状态。</p><p>总之，Wise Disk Cleaner 是一个强大的磁盘清理工具，可帮助您清理您的计算机上的垃圾文件，提高计算机的性能，并腾出更多的硬盘空间。</p><p>下载地址：<br><a href="https://www.123pan.com/s/nFvlVv-8u2HA.html">https://www.123pan.com/s/nFvlVv-8u2HA.html</a><br>提取码:tdW3</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>拍照试卷去底工具</title>
+      <link href="2023/11/27/soft-40/"/>
+      <url>2023/11/27/soft-40/</url>
+      
+        <content type="html"><![CDATA[<p>最新拍照试卷去底工具</p><a id="more"></a><p>软件为免费工具转自印刷论坛，用了几个月了，360疑似报毒，介意务用，火绒软件正常，比论坛原有的工具拖入文件要方便一点，拖入就进去了，省去了选择文件的步骤，实用</p><p>缺点，不支持保留彩色，黑白效果极佳，建议使用浅色去底，效果更佳，压缩包内附上测试图</p><p><img src="https://s2.loli.net/2023/11/27/xjV1QrlpOZ92Iag.png" alt="image.png"></p><p>下载地址——下载地址<a href="https://wwxb.lanzoul.com/iM81E1fh25ab">https://wwxb.lanzoul.com/iM81E1fh25ab</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 破解软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 破解软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>专业音乐管理软件MusicBee 官方最新版</title>
       <link href="2023/11/25/soft-39/"/>
       <url>2023/11/25/soft-39/</url>
