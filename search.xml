@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>安卓电视浏览器TV版-AI Browser 1.1.8版本 支持wifi遥控 浏览器支持视频网站</title>
+      <link href="2024/09/08/soft-64/"/>
+      <url>2024/09/08/soft-64/</url>
+      
+        <content type="html"><![CDATA[<p>AI Browser 1.1.8版本 支持wifi遥控 浏览器支持视频网站</p><a id="more"></a><p>Android TV 系统版本要求<br>7.0 及更高版本</p><p>亲测浏览器支持各大视频网站，pc或手机端vip可以在AI Browser 浏览器中使用</p><p>下载地址<br>安卓电视端浏览器，支持鼠标和遥控器<br><a href="https://lingo.lanzouo.com/id48n299e0hc">https://lingo.lanzouo.com/id48n299e0hc</a><br>远程WiFi浏览器遥控，支持手机变触摸板控制鼠标，手机打字直接上浏览器<br><a href="https://lingo.lanzouo.com/i0gEl299e0sd">https://lingo.lanzouo.com/i0gEl299e0sd</a></p><p><img src="https://s2.loli.net/2024/09/08/2b8QaDF4hcGRUz7.png" alt="image.png"></p><p><img src="https://s2.loli.net/2024/09/08/cfleTmONxnoWZAK.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>抖音无水印解析PHP版</title>
+      <link href="2024/09/08/soft-63/"/>
+      <url>2024/09/08/soft-63/</url>
+      
+        <content type="html"><![CDATA[<p>tiktok无水印解析PHP版</p><a id="more"></a><p>视频地址V3开头才能播放出现V26开头播放不了<br>重新访问下<a href="http://localhost/?url=https://v.douyin.com/ihWf6mpq/%E5%B0%B1%E5%A5%BD%E4%BA%86">http://localhost/?url=https://v.douyin.com/ihWf6mpq/就好了</a></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">//抖音无水印PHP版</span></span><br><span class="line"><span class="comment">//调用示例  http://localhost/?url=https://v.douyin.com/ihWf6mpq/</span></span><br><span class="line">error_reporting(<span class="number">0</span>);</span><br><span class="line"><span class="variable">$headers</span> = get_redirect_url(<span class="variable">$_GET</span>[<span class="string">&quot;url&quot;</span>]);</span><br><span class="line">preg_match(<span class="string">&#x27;|video/(.*?)/|&#x27;</span>,<span class="variable">$headers</span>, <span class="variable">$a</span>);</span><br><span class="line"><span class="variable">$targetUrl</span> = <span class="string">&#x27;https://www.douyin.com/user/self?modal_id=&#x27;</span>.<span class="variable">$a</span>[<span class="number">1</span>].<span class="string">&#x27;&amp;showTab=like&#x27;</span>;</span><br><span class="line"><span class="variable">$customUserAgent</span> = <span class="string">&#x27;Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36&#x27;</span>;</span><br><span class="line"><span class="variable">$result</span> = fetchDataWithCustomUA(<span class="variable">$targetUrl</span>, <span class="variable">$customUserAgent</span>);</span><br><span class="line">preg_match(<span class="string">&#x27;|&lt;script id=&quot;RENDER_DATA&quot; type=&quot;application/json&quot;&gt;(.*?)&lt;/script&gt;|&#x27;</span>,<span class="variable">$result</span>, <span class="variable">$matches</span>);</span><br><span class="line"><span class="variable">$middle_text</span> = <span class="variable">$matches</span>[<span class="number">1</span>];</span><br><span class="line"><span class="variable">$m</span> =json_decode(Urldecode(<span class="variable">$middle_text</span>));</span><br><span class="line"><span class="variable">$arr</span> = <span class="keyword">array</span>(<span class="string">&#x27;名字&#x27;</span> =&gt; <span class="variable">$m</span>-&gt;app-&gt;videoDetail-&gt;shareInfo-&gt;shareLinkDesc, <span class="string">&#x27;封面&#x27;</span> =&gt;<span class="string">&quot;https:&quot;</span>.<span class="variable">$m</span>-&gt;app-&gt;videoDetail-&gt;video-&gt;originCover, <span class="string">&#x27;视频&#x27;</span> =&gt;<span class="string">&quot;https:&quot;</span>.<span class="variable">$m</span>-&gt;app-&gt;videoDetail-&gt;video-&gt;playAddr[<span class="number">0</span>]-&gt;src, <span class="string">&#x27;MP3&#x27;</span> =&gt;<span class="variable">$m</span>-&gt;app-&gt;videoDetail-&gt;music-&gt;playUrl-&gt;uri);</span><br><span class="line"><span class="keyword">echo</span> stripslashes(json_encode(<span class="variable">$arr</span>,JSON_UNESCAPED_UNICODE));</span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fetchDataWithCustomUA</span>(<span class="params"><span class="variable">$url</span>, <span class="variable">$customUA</span></span>) </span>&#123;</span><br><span class="line">    <span class="variable">$ch</span> = curl_init();</span><br><span class="line">    curl_setopt(<span class="variable">$ch</span>, CURLOPT_URL, <span class="variable">$url</span>);</span><br><span class="line">    curl_setopt(<span class="variable">$ch</span>, CURLOPT_RETURNTRANSFER, <span class="literal">true</span>);</span><br><span class="line">    curl_setopt(<span class="variable">$ch</span>, CURLOPT_SSL_VERIFYPEER, <span class="literal">false</span>);</span><br><span class="line">    curl_setopt(<span class="variable">$ch</span>, CURLOPT_USERAGENT, <span class="variable">$customUA</span>);</span><br><span class="line">    curl_setopt (<span class="variable">$ch</span>, CURLOPT_COOKIE , <span class="string">&#x27;ttwid=1%7CP3XfP8WLdGrhhniqvZgITdxee4ylTHNIAFxiA8uiudk%7C1692861969%7Ccbc1e8cb639b9f2537017019cf2e16034eb5e02f91317cf02da669c3d9035225; douyin.com; device_web_cpu_core=8; device_web_memory_size=8; webcast_local_quality=null; strategyABtestKey=%221692861971.054%22; passport_csrf_token=52d1b9f0bdc601061b35649f820990a7; passport_csrf_token_default=52d1b9f0bdc601061b35649f820990a7; FORCE_LOGIN=%7B%22videoConsumedRemainSeconds%22%3A180%7D; s_v_web_id=verify_lloub543_MIbxaeCL_vWX9_4eQ5_B6rZ_XiLUd8TiC2z5; volume_info=%7B%22isUserMute%22%3Afalse%2C%22isMute%22%3Afalse%2C%22volume%22%3A0.5%7D; csrf_session_id=b3e96aad3d33a588099da1957c61412b; bd_ticket_guard_client_data=eyJiZC10aWNrZXQtZ3VhcmQtdmVyc2lvbiI6MiwiYmQtdGlja2V0LWd1YXJkLWl0ZXJhdGlvbi12ZXJzaW9uIjoxLCJiZC10aWNrZXQtZ3VhcmQtcmVlLXB1YmxpYy1rZXkiOiJCR1QzbVlJN1JlQ1pHYjRyMUxyREJMNWVqVHA5SWJxdjFPZHdsK08rNWFsRFY2dzFFSWZTVEpUbGppeE9GMW9ZK05ubFExbzIwU1Y4UWtUd3gxYUo3aUE9IiwiYmQtdGlja2V0LWd1YXJkLXdlYi12ZXJzaW9uIjoxfQ==; ttcid=6e2c49249e684b31adc93ec9d811921d35; pwa2=%220%7C0%7C2%7C0%22; __ac_nonce=064e715db00dce12044ad; __ac_signature=_02B4Z6wo00f01JFEgwQAAIDBX8zLRARkI5yRZIeAAEC64rwojdCoEppcamcP.zNDFFTvK-IdW9t65-J9QZ6AQspB6MmaGXcO2csLGYi13EYeG3xUA6EfUKHORVbG8tX9TWqmvF-XXQJq1BC37e; tt_scid=0RB0BQpAJZCtDUGQEfvGfovmjxWL4NUYr7faECJEqAxGXeNJ7oGESHkuMx8zXBOuf02f; download_guide=%223%2F20230824%2F0%22; IsDouyinActive=true; stream_recommend_feed_params=%22%7B%5C%22cookie_enabled%5C%22%3Atrue%2C%5C%22screen_width%5C%22%3A1920%2C%5C%22screen_height%5C%22%3A1080%2C%5C%22browser_online%5C%22%3Atrue%2C%5C%22cpu_core_num%5C%22%3A8%2C%5C%22device_memory%5C%22%3A8%2C%5C%22downlink%5C%22%3A5.95%2C%5C%22effective_type%5C%22%3A%5C%224g%5C%22%2C%5C%22round_trip_time%5C%22%3A50%7D%22; VIDEO_FILTER_MEMO_SELECT=%7B%22expireTime%22%3A1693470886177%2C%22type%22%3Anull%7D; home_can_add_dy_2_desktop=%221%22; msToken=phFAWMM1fxkFc4oj6QE8_DMbU57I87HDv_NnoZ9uVNGkx1j9HDT-ddGbno81zAHZuXDF4OKjA1mHIchWdQYixYfFkSCi1Kb-1dKKjmHw_yz-YTa2wQ==; msToken=f_v0fvPvEDKoOBgIkJwOciMoWbigmQ0oZzhY2RgQfO2Otc1zIwtEkRE_kmn8FYYdXDQjAa0tfamm7kXHYD_1M3VrLvLvfQaIP2XtKctXHG4WNcKRyw==; xgplayer_user_id=180566107648&#x27;</span>);</span><br><span class="line">    <span class="variable">$data</span> = curl_exec(<span class="variable">$ch</span>);</span><br><span class="line">    curl_close(<span class="variable">$ch</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="variable">$data</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">get_redirect_url</span>(<span class="params"><span class="variable">$url</span></span>)</span>&#123;</span><br><span class="line"><span class="variable">$header</span> = get_headers(<span class="variable">$url</span>, <span class="number">1</span>);</span><br><span class="line"><span class="keyword">if</span> (strpos(<span class="variable">$header</span>[<span class="number">0</span>], <span class="string">&#x27;301&#x27;</span>) !== <span class="literal">false</span> || strpos(<span class="variable">$header</span>[<span class="number">0</span>], <span class="string">&#x27;302&#x27;</span>) !== <span class="literal">false</span>) &#123;</span><br><span class="line"><span class="keyword">if</span>(is_array(<span class="variable">$header</span>[<span class="string">&#x27;Location&#x27;</span>])) &#123;</span><br><span class="line"><span class="keyword">return</span> <span class="variable">$header</span>[<span class="string">&#x27;Location&#x27;</span>][count(<span class="variable">$header</span>[<span class="string">&#x27;Location&#x27;</span>])<span class="number">-1</span>];</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line"><span class="keyword">return</span> <span class="variable">$header</span>[<span class="string">&#x27;Location&#x27;</span>];</span><br><span class="line">&#125;</span><br><span class="line">&#125;<span class="keyword">else</span> &#123;</span><br><span class="line"><span class="keyword">return</span> <span class="variable">$url</span>;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>西瓜视频最新解密链接</title>
+      <link href="2024/09/08/soft-62/"/>
+      <url>2024/09/08/soft-62/</url>
+      
+        <content type="html"><![CDATA[<p>西瓜视频最新解密链接</p><a id="more"></a><p>差不多意思 key还是ptk</p><p>变动的是iv</p><p>iv构造方法 {ptk}_{video_id} 如ef84a15b-ffd0-4c4d-9d56-b652532f_v03043740000bkdcm2d8kgepf3ld6a0g在进行md5取16位</p><p>php可以用<br>md5(‘ef84a15b-ffd0-4c4d-9d56-b652532f_v03043740000bkdcm2d8kgepf3ld6a0g’,1)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">$data &#x3D; &quot;VrrQyJKydr29PXzidAN+p1w7w9YSn8XyXoRc5R3+cTNp6CDQJup4kAYicBD&#x2F;ijLZRBedZTqeWho5AWkSygwFaHoLO2LQwsTsY9SpcHx5OX3M9NSwZGx5jj9GLcV+74mRqQrzzpAD0iZ+3Jxksp7kzkyzDl6ZoakXX00LpASiBHLCPMNpsgm96hT5gUOeR5z45&#x2F;b&#x2F;83G+THOClQYYcYTwcRM91wYRP52JayjGeD5DAclRl6A8DTezs9fyPOGx7dVSmXr67xfovBUWUvzFX7tzlAsV3DlXt09xmM7dCOuaEDd592SAOCsUIwGiQ1eTcebteUQohDFmmLY6BytGnV5m2suHxddPMZbkcQ0fJS0zi6&#x2F;3OCZBRd3OhwNOfU&#x2F;3m0vz87GEHxVxOaLUWhIt4c&#x2F;TJPkTqwbytWEMCeguLAwodhM1wzoLxADh7zguqb&#x2F;i+nj&#x2F;1rAKCbGMH21c59rYKCiQb4fydyCgOlafeMjyp8xOs07mTAkjAsUz7Cr1gzJ9jXZu0tsK8&#x2F;dzNdDFh+TAfK1ec75NKkb9HvOWvOb&#x2F;DhBBFfuiSz6pY2CLDzODR5QQj4NJc1agLbTETO8dvGsfICOIFUiqt+jjhn6bv5x+EEkjBaKm1aAXzHcm6BHS+SLqqDg+s6N0SoA2Uy80oL+w1FAFeA&#x3D;&#x3D;&quot;;</span><br><span class="line">$key &#x3D; &quot;ef84a15b-ffd0-4c4d-9d56-b652532f&quot;;</span><br><span class="line">$iv &#x3D; md5(&quot;ef84a15b-ffd0-4c4d-9d56-b652532f_v03043740000bkdcm2d8kgepf3ld6a0g&quot;,1);</span><br><span class="line">print_r(aes_decrypt($data, $key, $iv));</span><br><span class="line">function aes_decrypt($data, $key, $iv) &#123;</span><br><span class="line">    $data &#x3D; base64_decode($data);</span><br><span class="line">    $decrypted &#x3D; openssl_decrypt(  </span><br><span class="line">        $data,  </span><br><span class="line">        &#39;aes-256-cbc&#39;,  </span><br><span class="line">        $key,  </span><br><span class="line">        OPENSSL_RAW_DATA,</span><br><span class="line">        $iv </span><br><span class="line">    );</span><br><span class="line">    &#x2F;&#x2F; 返回解密后的字符串  </span><br><span class="line">    return $decrypted;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小云朵（原微分身管家）去除木华云弹窗验证</title>
+      <link href="2024/09/08/soft-61/"/>
+      <url>2024/09/08/soft-61/</url>
+      
+        <content type="html"><![CDATA[<p>小云朵（原微分身管家）破解过程</p><a id="more"></a><p>使用工具<br>● MT管理器<br>● 算法助手</p><ol><li>打开APP就有弹窗</li></ol><p><img src="https://s2.loli.net/2024/09/08/ZQ1ohC9eg72utOz.png" alt="image.png"></p><ol start="2"><li>算法助手抓弹窗堆栈，重新运行，还是不能按返回键取消，估计是使用了反射</li></ol><p><img src="https://s2.loli.net/2024/09/08/GHnijzwQ9Bbmtod.png" alt="image.png"></p><ol start="3"><li>抓到一个很可以的调用，看到堆栈日志中确实是使用了反射</li></ol><p><img src="https://s2.loli.net/2024/09/08/cGwQKJMyqUuRP5r.png" alt="image.png"></p><ol start="4"><li>将Api类的Show方法添加到hook中</li></ol><p><img src="https://s2.loli.net/2024/09/08/98wGdXokxJHigsT.png" alt="image.png"></p><ol start="5"><li>使用热修复拦截方法调用测试</li></ol><p><img src="https://s2.loli.net/2024/09/08/XtLnK3EymkTh2Ms.png" alt="image.png"></p><ol start="6"><li><p>拦截成功，弹窗没有了</p></li><li><p>进入assets/lspatch目录将原包origin.apk解压出来修改</p></li></ol><p><img src="https://s2.loli.net/2024/09/08/txWJmkjTDbwdqvN.png" alt="image.png"></p><ol start="8"><li>搜索到的Api类</li></ol><p><img src="https://s2.loli.net/2024/09/08/ceG9tog3p8uHrkF.png" alt="image.png"></p><ol start="9"><li>无脑一键清空代码</li></ol><p><img src="https://s2.loli.net/2024/09/08/M1DGvziVOYPoZB2.png" alt="image.png"></p><ol start="10"><li>清空代码后保存</li></ol><p><img src="https://s2.loli.net/2024/09/08/q4QGEojpxFKJs89.png" alt="image.png"></p><ol start="11"><li>将修改后的apk签名，重命名，添加回assets/lspatch/</li></ol><p><img src="https://s2.loli.net/2024/09/08/nb7AG3XlVzO8jkS.png" alt="image.png"></p><ol start="12"><li>然后签名原来Lsp去签的包，重新安装就可以了</li></ol><p><img src="https://s2.loli.net/2024/09/08/ujD13hLXVm4My5r.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>高德地图 google play版</title>
+      <link href="2024/09/08/soft-60/"/>
+      <url>2024/09/08/soft-60/</url>
+      
+        <content type="html"><![CDATA[<p>谷歌地图 google play版本</p><a id="more"></a><p><img src="https://s2.loli.net/2024/09/08/GZFtW3j16kXzvN9.png" alt="image.png"></p><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>分流 <a href="https://sunwing.lanzoue.com/iTcYs29ef6tg">https://sunwing.lanzoue.com/iTcYs29ef6tg</a><br>密码:52pj</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科技前沿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技前沿 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2024顶级机场推荐，便宜稳定，等你来！</title>
       <link href="2024/08/29/ssr-1/"/>
       <url>2024/08/29/ssr-1/</url>
